@@ -9,7 +9,7 @@ Start: {{ site.course-start}}, slut: {{ site.course-end}}
 
 Vecka|Måndag|Tisdag|Onsdag|Torsdag|Fredag
 -----|-------|-------|------{% for week in site.data.schedule.weeks %}
-{{week.week}}{%- for day in week.days -%}|{% if day.lectures %}**{{ day.lectures[0].start-full | date: "%F"}}**{%- for lecture in day.lectures -%}<br /><br />{{ lecture.start-full | date: "%R"}} - {{ lecture.end-full | date: "%R"}}<br />{{lecture.number}}: [{{lecture.lecture}}]({{lecture.slug}}){%- endfor -%}{% endif %}{%- endfor -%}
+{{week.week}}{%- for day in week.days -%}|{% if day.lectures %}**{{ day.lectures[0].start-full | date: "%F"}}**{%- for lecture in day.lectures -%}<br /><br />{{ lecture.start-full | date: "%R"}} - {{ lecture.end-full | date: "%R"}}<br />{{lecture.number}}: [{{lecture.lecture}}]({{ lecture.slug | prepend: site.baseurl }}){%- endfor -%}{% endif %}{%- endfor -%}
 {% endfor %}
 
 

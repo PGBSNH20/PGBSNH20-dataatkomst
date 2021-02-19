@@ -10,27 +10,24 @@ weeks:
     lectures:
     - lecture: "Introduktion"
       number: "L1"
-      slug: ../lectures/introduction
+      slug: lectures/introduction
       filename: Untitled
       dirname: untitled-lecture
-      description: "Röda tråden till C#-kursen och start på denna kurs"
-      start-full: 20201207T083000
-      end-full: 20201207T093000
+      description: "Start på denna kurs"
+      start-full: 20210301T083000
+      end-full: 20210301T093000
     - lecture: "C# refresh"
       number: "L1"
-      slug: ../lectures/introduction
+      slug: lectures/introduction
       filename: Untitled
       dirname: untitled-lecture
-      description: "Krav"
-      start-full: 20201207T100000
-      end-full: 20201207T110000
+      description: "Röda tråden till C#-kursen"
+      start-full: 20210301T100000
+      end-full: 20210301T110000
       discussion: https://github.com/PGBSNH20/PGBSNH20-dataatkomst/discussions/3
     - lecture: "Projekt"
       number: "P0"
-      slug: ../assignments/project
-      location: Online
-      filename: Untitled
-      dirname: untitled-lecture
+      slug: assignments/project
       description: "Bilda grupper + bygg en kod grund"
       start-full: 20201207T110000
       end-full: 20201207T150000
@@ -42,12 +39,10 @@ weeks:
     lectures:
     - lecture: "Enhetstest och clean code"
       number: "L2"
-      slug: ../workshops/workshop1b
-      filename: Untitled
-      dirname: untitled-lecture
-      description: "Workshop för team 3"
-      start-full: 20201209T083000
-      end-full: 20201209T120000
+      slug: lectures/cleancode
+      description: "Enhetstest och clean code"
+      start-full: 20210303T083000
+      end-full: 20210303T120000
   - day: 2021-03-04
     weekday: "Torsdag"
     lectures: null
@@ -62,12 +57,10 @@ weeks:
     lectures:
     - lecture: "Trådning uppstart"
       number: "L3"
-      slug: ../lectures/enviroments
-      filename: Untitled
-      dirname: untitled-lecture
-      description: "IDE, test system"
-      start-full: 20201214T083000
-      end-full: 20201214T093000
+      slug: lectures/threading
+      description: "Trådning uppstart"
+      start-full: 20210308T083000
+      end-full: 20210308T093000
   - day: 2021-03-09
     weekday: "Tisdag"
     lectures: null
@@ -76,12 +69,10 @@ weeks:
     lectures:
     - lecture: "ORM och tasks"
       number: "L4"
-      slug: ../lectures/people
-      filename: Untitled
-      dirname: untitled-lecture
-      description: "UX, att jobba i ett team"
-      start-full: 20201217T083000
-      end-full: 20201217T093000
+      slug: lectures/ormtask
+      description: "ORM och tasks"
+      start-full: 20210310T083000
+      end-full: 20210310T093000
   - day: 2021-03-11
     weekday: "Torsdag"
     lectures: null
@@ -94,14 +85,12 @@ weeks:
   - day: 2021-03-15
     weekday: "Måndag"
     lectures:
-    - lecture: "Database first"
+    - lecture: "Databas first"
       number: "L5"
-      slug: ../lectures/documentation
-      filename: Untitled
-      dirname: untitled-lecture
-      description: "Hur man kan dokumentera"
-      start-full: 20201221T083000
-      end-full: 20201221T093000
+      slug: lectures/databasefirst
+      description: "En teknik vart man börja med att skåpa en databas, kanske man har en eksisterende (legacy) databas"
+      start-full: 20210315T083000
+      end-full: 20210315T093000
   - day: 2021-03-16
     weekday: "Tisdag"
     lectures: null
@@ -110,12 +99,10 @@ weeks:
     lectures:
     - lecture: "Code first"
       number: "L6"
-      slug: ../assignments/project
-      filename: Untitled
-      dirname: untitled-lecture
-      description: "End of sprint 1 and start of sprint 2"
-      start-full: 20201223T090000
-      end-full: 20201223T160000
+      slug: lectures/codefirst
+      description: "En teknik vart man skåper en databas utifrån sin kod"
+      start-full: 20210317T090000
+      end-full: 20210317T160000
   - day: 2021-03-18
     weekday: "Torsdag"
     lecture: null
@@ -128,14 +115,12 @@ weeks:
   - day: 2021-03-22
     weekday: "Måndag"
     lectures:
-    - lecture: "Dataåtkomst med Entiy Framework"
+    - lecture: "Dataåtkomst med Entity Framework"
       number: "L7"
-      slug: ../lectures/versioncontroll
-      filename: Untitled
-      dirname: untitled-lecture
-      description: "Licenser, Open Source, Startup"
-      start-full: 20201229T083000
-      end-full: 20201229T090000
+      slug: lectures/dataaccess
+      description: "Dataåtkomst med Entity Framework"
+      start-full: 20210322T083000
+      end-full: 20210322T090000
   - day: 2021-03-23
     weekday: "Tisdag"
     lectures: null
@@ -144,12 +129,10 @@ weeks:
     lectures:
     - lecture: "Migrations och deployment"
       number: "L8"
-      slug: ../lectures/lifecycle
-      filename: Untitled
-      dirname: untitled-lecture
-      description: ""
-      start-full: 20201230T083000
-      end-full: 20201230T095000
+      slug: lectures/migration
+      description: "Migrations och deployment"
+      start-full: 20210324T083000
+      end-full: 20210324T095000
   - day: 2021-03-25
     weekday: "Torsdag"
     lecture: null
@@ -164,26 +147,22 @@ weeks:
     lectures: 
     - lecture: "DBContext och Transactions"
       number: "L9"
-      slug: ../lectures/strategies
-      filename: Untitled
-      dirname: untitled-lecture
-      description: "Hur får vi till bra kod"
-      start-full: 20210105T083000
-      end-full: 20210105T093000
+      slug: lectures/dbcontext
+      description: "DBContext och Transactions"
+      start-full: 20210329T083000
+      end-full: 20210329T093000
   - day: 2021-03-30
     weekday: "Tisdag"
     lectures: null
   - day: 2021-03-31
+    weekday: "Onsdag"
     lectures:
     - lecture: "Enhetstest med data"
       number: "L10"
-      slug: ../assignments/project
-      length: 150
-      filename: Untitled
-      dirname: untitled-lecture
-      description: "End of sprint 2"
-      start-full: 20210107T090000
-      end-full: 20210107T160000
+      slug: lectures/unittestdata
+      description: "Enhetstest med data"
+      start-full: 20210331T090000
+      end-full: 20210331T160000
   - day: 2021-04-01
     weekday: "Torsdag"
     lectures: null
@@ -198,12 +177,10 @@ weeks:
     lectures:
     - lecture: "Datåtkomst och dokument databaser"
       number: "L11"
-      slug: ../assignments/project
-      filename: Untitled
-      dirname: untitled-lecture
-      description: "Start of sprint 3"
-      start-full: 20210111T090000
-      end-full: 20210111T160000
+      slug: lectures/documentdb
+      description: "Datåtkomst och dokument databaser"
+      start-full: 20210405T090000
+      end-full: 20210405T160000
   - day: 2021-04-06
     weekday: "Tisdag"
     lectures: null
@@ -212,15 +189,10 @@ weeks:
     lectures:
     - lecture: "Prestanda och optimering"
       number: "L12"
-      slug: ../assignments/project
-      start-time: "08:30"
-      end-time: "11:00"
-      length: 150
-      filename: Untitled
-      dirname: untitled-lecture
-      description: "End of sprint 3"
-      start-full: 20210113T090000
-      end-full: 20210113T160000
+      slug: lectures/performance
+      description: "Prestanda och optimering"
+      start-full: 20210407T090000
+      end-full: 20210407T160000
   - day: 2021-04-08
     weekday: "Torsdag"
     lectures: null
@@ -235,15 +207,10 @@ weeks:
     lectures:
     - lecture: "Datatjänster"
       number: "L13"
-      slug: ../assignments/project
-      start-time: "08:30"
-      end-time: "11:00"
-      length: 150
-      filename: Untitled
-      dirname: untitled-lecture
-      description: "End of sprint 3"
-      start-full: 20210113T090000
-      end-full: 20210113T160000
+      slug: lectures/dataservices
+      description: "Graphql"
+      start-full: 20210412T090000
+      end-full: 20210412T160000
   - day: 2021-04-13
     weekday: "Tisdag"
     lectures: null
@@ -252,9 +219,7 @@ weeks:
     lectures:  
     - lecture: "Ask Almost Anything"
       number: "A1"
-      slug: ../aaa/2/
-      filename: Untitled
-      dirname: untitled-lecture
+      slug: aaa/1
       description: "TBA"
       start-full: 20210120T083000
       end-full: 20210120T093000
