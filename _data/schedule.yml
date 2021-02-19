@@ -16,7 +16,7 @@ weeks:
       description: "Röda tråden till C#-kursen och start på denna kurs"
       start-full: 20201207T083000
       end-full: 20201207T093000
-    - lecture: "Krav"
+    - lecture: "C# refresh"
       number: "L1"
       slug: ../lectures/introduction
       filename: Untitled
@@ -24,6 +24,7 @@ weeks:
       description: "Krav"
       start-full: 20201207T100000
       end-full: 20201207T110000
+      discussion: https://github.com/PGBSNH20/PGBSNH20-dataatkomst/discussions/3
     - lecture: "Projekt"
       number: "P0"
       slug: ../assignments/project
@@ -39,8 +40,8 @@ weeks:
   - day: 2021-03-03
     weekday: "Onsdag"
     lectures:
-    - lecture: "Workshop, team 3"
-      number: "W1B"
+    - lecture: "Enhetstest och clean code"
+      number: "L2"
       slug: ../workshops/workshop1b
       filename: Untitled
       dirname: untitled-lecture
@@ -59,30 +60,22 @@ weeks:
   - day: 2021-03-08
     weekday: "Måndag"
     lectures:
-    - lecture: "Utvecklingsmiljö"
-      number: "L9"
+    - lecture: "Trådning uppstart"
+      number: "L3"
       slug: ../lectures/enviroments
       filename: Untitled
       dirname: untitled-lecture
       description: "IDE, test system"
       start-full: 20201214T083000
       end-full: 20201214T093000
-    - lecture: "Help session"
-      number: "P2"
-      slug: ../assignments/project
-      filename: Untitled
-      dirname: untitled-lecture
-      description: "Daily standup 2020-12-14"
-      start-full: 20201214T093000
-      end-full: 20201214T120000
   - day: 2021-03-09
     weekday: "Tisdag"
     lectures: null
   - day: 2021-03-10
     weekday: "Onsdag"
     lectures:
-    - lecture: "Mänskor och kultur"
-      number: "L2"
+    - lecture: "ORM och tasks"
+      number: "L4"
       slug: ../lectures/people
       filename: Untitled
       dirname: untitled-lecture
@@ -101,8 +94,8 @@ weeks:
   - day: 2021-03-15
     weekday: "Måndag"
     lectures:
-    - lecture: "Dokumentation"
-      number: "L4"
+    - lecture: "Database first"
+      number: "L5"
       slug: ../lectures/documentation
       filename: Untitled
       dirname: untitled-lecture
@@ -115,8 +108,8 @@ weeks:
   - day: 2021-03-17
     weekday: "Onsdag"
     lectures:
-    - lecture: "Sprint slut och start"
-      number: "P4"
+    - lecture: "Code first"
+      number: "L6"
       slug: ../assignments/project
       filename: Untitled
       dirname: untitled-lecture
@@ -135,8 +128,8 @@ weeks:
   - day: 2021-03-22
     weekday: "Måndag"
     lectures:
-    - lecture: "Versionshantering"
-      number: "L8"
+    - lecture: "Dataåtkomst med Entiy Framework"
+      number: "L7"
       slug: ../lectures/versioncontroll
       filename: Untitled
       dirname: untitled-lecture
@@ -149,8 +142,8 @@ weeks:
   - day: 2021-03-24
     weekday: "Onsdag"
     lectures:
-    - lecture: "Livscykel"
-      number: "L5"
+    - lecture: "Migrations och deployment"
+      number: "L8"
       slug: ../lectures/lifecycle
       filename: Untitled
       dirname: untitled-lecture
@@ -169,8 +162,8 @@ weeks:
   - day: 2021-03-29
     weekday: "Måndag"
     lectures: 
-    - lecture: "Programmeringsstrategier"
-      number: "L6"
+    - lecture: "DBContext och Transactions"
+      number: "L9"
       slug: ../lectures/strategies
       filename: Untitled
       dirname: untitled-lecture
@@ -182,11 +175,9 @@ weeks:
     lectures: null
   - day: 2021-03-31
     lectures:
-    - lecture: "Sprint slut"
-      number: "P5"
+    - lecture: "Enhetstest med data"
+      number: "L10"
       slug: ../assignments/project
-      start-time: "08:30"
-      end-time: "11:00"
       length: 150
       filename: Untitled
       dirname: untitled-lecture
@@ -205,8 +196,8 @@ weeks:
   - day: 2021-04-05
     weekday: "Måndag"
     lectures:
-    - lecture: "Sprint start"
-      number: "P6"
+    - lecture: "Datåtkomst och dokument databaser"
+      number: "L11"
       slug: ../assignments/project
       filename: Untitled
       dirname: untitled-lecture
@@ -219,8 +210,8 @@ weeks:
   - day: 2021-04-07
     weekday: "Onsdag"
     lectures:
-    - lecture: "Sprint slut"
-      number: "P7"
+    - lecture: "Prestanda och optimering"
+      number: "L12"
       slug: ../assignments/project
       start-time: "08:30"
       end-time: "11:00"
@@ -242,8 +233,8 @@ weeks:
   - day: 2021-04-12
     weekday: "Måndag"
     lectures:
-    - lecture: "Sprint slut"
-      number: "P7"
+    - lecture: "Datatjänster"
+      number: "L13"
       slug: ../assignments/project
       start-time: "08:30"
       end-time: "11:00"
@@ -260,7 +251,7 @@ weeks:
     weekday: "Onsdag"
     lectures:  
     - lecture: "Ask Almost Anything"
-      number: "A2"
+      number: "A1"
       slug: ../aaa/2/
       filename: Untitled
       dirname: untitled-lecture
