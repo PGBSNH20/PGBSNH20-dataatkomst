@@ -1,12 +1,12 @@
 # Site settings
-title: Datåtkomst med .NET
+title: Dataåtkomst med .NET
 subtitle: PGBSNH20
 description: |
     För att kunna jobba som systemutvecklare, räcker det inte att enbart känna till hur man skriver kod och dom verktyg man använder, 
     man måste också ha en djup kunskap om dom processor och verktyg som man använder båda utvecklingsprocessen 
     och hur man leverera mjukvaror till slut användaren.
-baseurl: "/pgbsnh20-data-access" # the subpath of your site, e.g. /blog/
-url: "http://PGBSNH20.github.io/PGBSNH20-dataatkomst" # the base hostname & protocol for your site
+baseurl: "/PGBSNH20-dataatkomst" # the subpath of your site, e.g. /blog/
+url: "https://pgbsnh20.github.io/PGBSNH20-dataatkomst/" # the base hostname & protocol for your site
 githubdir: PGBSNH20/PGBSNH20-dataatkomst"
 lms-name: Ping Ping
 lms-url: https://yh.pingpong.se/courseId/12109/content.do?id=4887498
