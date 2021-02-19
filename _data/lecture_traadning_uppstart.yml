@@ -1,0 +1,16 @@
+---
+litterateur:
+  totalVideoTime: 0
+  totalTextTime: 0
+  totalAudioTime: 0
+optionalLitterateur:
+  totalVideoTime: 0
+  totalTextTime: 0
+  totalAudioTime: 0
+topics:
+  - topic: "Bakgrundsmaterial"
+    isVisible: true
+    isDetails: true
+  - topic: "Lektionsteori"
+    isVisible: true
+    isDetails: false

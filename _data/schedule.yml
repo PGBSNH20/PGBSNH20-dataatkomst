@@ -1,0 +1,275 @@
+course: 
+  name: "Dataåtkomst - Göteborg"
+  courseId: fc5d2096-8fdd-4920-b3ed-ca43ac8d9782
+weeks:
+- week: 09
+  year: 2021
+  days:
+  - day: 2021-03-01
+    weekday: "Måndag"
+    lectures:
+    - lecture: "Introduktion"
+      number: "L1"
+      slug: ../lectures/introduction
+      filename: Untitled
+      dirname: untitled-lecture
+      description: "Röda tråden till C#-kursen och start på denna kurs"
+      start-full: 20201207T083000
+      end-full: 20201207T093000
+    - lecture: "Krav"
+      number: "L1"
+      slug: ../lectures/introduction
+      filename: Untitled
+      dirname: untitled-lecture
+      description: "Krav"
+      start-full: 20201207T100000
+      end-full: 20201207T110000
+    - lecture: "Projekt"
+      number: "P0"
+      slug: ../assignments/project
+      location: Online
+      filename: Untitled
+      dirname: untitled-lecture
+      description: "Bilda grupper + bygg en kod grund"
+      start-full: 20201207T110000
+      end-full: 20201207T150000
+  - day: 2021-03-02
+    weekday: "Tisdag"
+    lectures: null
+  - day: 2021-03-03
+    weekday: "Onsdag"
+    lectures:
+    - lecture: "Workshop, team 3"
+      number: "W1B"
+      slug: ../workshops/workshop1b
+      filename: Untitled
+      dirname: untitled-lecture
+      description: "Workshop för team 3"
+      start-full: 20201209T083000
+      end-full: 20201209T120000
+  - day: 2021-03-04
+    weekday: "Torsdag"
+    lectures: null
+  - day: 2021-03-05
+    weekday: "Fredag"
+    lectures: null
+- week: 10
+  year: 2021
+  days:
+  - day: 2021-03-08
+    weekday: "Måndag"
+    lectures:
+    - lecture: "Utvecklingsmiljö"
+      number: "L9"
+      slug: ../lectures/enviroments
+      filename: Untitled
+      dirname: untitled-lecture
+      description: "IDE, test system"
+      start-full: 20201214T083000
+      end-full: 20201214T093000
+    - lecture: "Help session"
+      number: "P2"
+      slug: ../assignments/project
+      filename: Untitled
+      dirname: untitled-lecture
+      description: "Daily standup 2020-12-14"
+      start-full: 20201214T093000
+      end-full: 20201214T120000
+  - day: 2021-03-09
+    weekday: "Tisdag"
+    lectures: null
+  - day: 2021-03-10
+    weekday: "Onsdag"
+    lectures:
+    - lecture: "Mänskor och kultur"
+      number: "L2"
+      slug: ../lectures/people
+      filename: Untitled
+      dirname: untitled-lecture
+      description: "UX, att jobba i ett team"
+      start-full: 20201217T083000
+      end-full: 20201217T093000
+  - day: 2021-03-11
+    weekday: "Torsdag"
+    lectures: null
+  - day: 2021-03-12
+    weekday: "Fredag"
+    lectures: null
+- week: 11
+  year: 2021
+  days:
+  - day: 2021-03-15
+    weekday: "Måndag"
+    lectures:
+    - lecture: "Dokumentation"
+      number: "L4"
+      slug: ../lectures/documentation
+      filename: Untitled
+      dirname: untitled-lecture
+      description: "Hur man kan dokumentera"
+      start-full: 20201221T083000
+      end-full: 20201221T093000
+  - day: 2021-03-16
+    weekday: "Tisdag"
+    lectures: null
+  - day: 2021-03-17
+    weekday: "Onsdag"
+    lectures:
+    - lecture: "Sprint slut och start"
+      number: "P4"
+      slug: ../assignments/project
+      filename: Untitled
+      dirname: untitled-lecture
+      description: "End of sprint 1 and start of sprint 2"
+      start-full: 20201223T090000
+      end-full: 20201223T160000
+  - day: 2021-03-18
+    weekday: "Torsdag"
+    lecture: null
+  - day: 2021-03-19
+    weekday: "Fredag"
+    lecture: null
+- week: 12
+  year: 2021
+  days:
+  - day: 2021-03-22
+    weekday: "Måndag"
+    lectures:
+    - lecture: "Versionshantering"
+      number: "L8"
+      slug: ../lectures/versioncontroll
+      filename: Untitled
+      dirname: untitled-lecture
+      description: "Licenser, Open Source, Startup"
+      start-full: 20201229T083000
+      end-full: 20201229T090000
+  - day: 2021-03-23
+    weekday: "Tisdag"
+    lectures: null
+  - day: 2021-03-24
+    weekday: "Onsdag"
+    lectures:
+    - lecture: "Livscykel"
+      number: "L5"
+      slug: ../lectures/lifecycle
+      filename: Untitled
+      dirname: untitled-lecture
+      description: ""
+      start-full: 20201230T083000
+      end-full: 20201230T095000
+  - day: 2021-03-25
+    weekday: "Torsdag"
+    lecture: null
+  - day: 2021-03-26
+    weekday: "Fredag"
+    lecture: null
+- week: 13
+  year: 2021
+  days:
+  - day: 2021-03-29
+    weekday: "Måndag"
+    lectures: 
+    - lecture: "Programmeringsstrategier"
+      number: "L6"
+      slug: ../lectures/strategies
+      filename: Untitled
+      dirname: untitled-lecture
+      description: "Hur får vi till bra kod"
+      start-full: 20210105T083000
+      end-full: 20210105T093000
+  - day: 2021-03-30
+    weekday: "Tisdag"
+    lectures: null
+  - day: 2021-03-31
+    lectures:
+    - lecture: "Sprint slut"
+      number: "P5"
+      slug: ../assignments/project
+      start-time: "08:30"
+      end-time: "11:00"
+      length: 150
+      filename: Untitled
+      dirname: untitled-lecture
+      description: "End of sprint 2"
+      start-full: 20210107T090000
+      end-full: 20210107T160000
+  - day: 2021-04-01
+    weekday: "Torsdag"
+    lectures: null
+  - day: 2021-04-02
+    weekday: "Fredag"
+    lectures: null
+- week: 14
+  year: 2021
+  days:
+  - day: 2021-04-05
+    weekday: "Måndag"
+    lectures:
+    - lecture: "Sprint start"
+      number: "P6"
+      slug: ../assignments/project
+      filename: Untitled
+      dirname: untitled-lecture
+      description: "Start of sprint 3"
+      start-full: 20210111T090000
+      end-full: 20210111T160000
+  - day: 2021-04-06
+    weekday: "Tisdag"
+    lectures: null
+  - day: 2021-04-07
+    weekday: "Onsdag"
+    lectures:
+    - lecture: "Sprint slut"
+      number: "P7"
+      slug: ../assignments/project
+      start-time: "08:30"
+      end-time: "11:00"
+      length: 150
+      filename: Untitled
+      dirname: untitled-lecture
+      description: "End of sprint 3"
+      start-full: 20210113T090000
+      end-full: 20210113T160000
+  - day: 2021-04-08
+    weekday: "Torsdag"
+    lectures: null
+  - day: 2021-04-09
+    weekday: "Fredag"
+    lectures: null
+- week: 15
+  year: 2021
+  days:
+  - day: 2021-04-12
+    weekday: "Måndag"
+    lectures:
+    - lecture: "Sprint slut"
+      number: "P7"
+      slug: ../assignments/project
+      start-time: "08:30"
+      end-time: "11:00"
+      length: 150
+      filename: Untitled
+      dirname: untitled-lecture
+      description: "End of sprint 3"
+      start-full: 20210113T090000
+      end-full: 20210113T160000
+  - day: 2021-04-13
+    weekday: "Tisdag"
+    lectures: null
+  - day: 2021-04-14
+    weekday: "Onsdag"
+    lectures:  
+    - lecture: "Ask Almost Anything"
+      number: "A2"
+      slug: ../aaa/2/
+      filename: Untitled
+      dirname: untitled-lecture
+      description: "TBA"
+      start-full: 20210120T083000
+      end-full: 20210120T093000
+  - day: 2021-04-15
+    weekday: "Torsdag"
+    lectures: null
+  - day: 2021-04-16
+    weekday: "Fredag"
+    lectures: null
