@@ -11,8 +11,8 @@ Denna lektion är en introduktion till kursen, samt dom första steg med projekt
 ## Lektionsplan
 Lektion från kl. 8:30 till kl. 16:30
 
-{% for part in site.data.schedule.weeks[0].days[0].parts %}
-* {{ part.start-full | date: "%R"}} - {{ part.end-full | date: "%R"}} : {% if part.discussion %}<i class="fa fa-comments" aria-hidden="true"></i> [{{part.title}}]({{part.discussion}}) (delta aktivt i diskussionen){% else %}{{part.title}} {% endif %}
+{% for activity in site.data.schedule.weeks[0].days[0].activities %}
+* {{ activity.start-full | date: "%R"}} - {{ activity.end-full | date: "%R"}} : {% if activity.discussion %}<i class="fa fa-comments" aria-hidden="true"></i> [{{activity.title}}]({{activity.discussion}}) (delta aktivt i diskussionen){% else %}{{activity.title}} {% endif %}
 {% endfor %}
 
 ## Lektionsteori
