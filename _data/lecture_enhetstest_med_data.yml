@@ -9,8 +9,4 @@ optionalLitterateur:
   totalAudioTime: 0
 topics:
   - topic: "Lektionsteori"
-    isVisible: true
-    isDetails: false
   - topic: "Bakgrundsmaterial"
-    isVisible: true
-    isDetails: true

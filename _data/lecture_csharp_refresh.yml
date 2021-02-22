@@ -7,19 +7,8 @@ optionalLitterateur:
   totalVideoTime: 0
   totalTextTime: 0
   totalAudioTime: 0
-notInTopic:
-  isVisible: false
-  isDetails: false
-  links:
-  - title: "Git vs. GitHub: What's the difference? - YouTube"
-    url: https://www.youtube.com/watch?v=wpISo9TNjfU
-    videoTime: 0
-    textTime: 0
-    audioTime: 0
 topics:
   - topic: "Object Oriented Programming and C#"
-    isVisible: true
-    isDetails: false
     literature:
     - title: "What are four basic principles of Object Oriented Programming? - by Munish Chandel - Medium"
       url: https://medium.com/@cancerian0684/what-are-four-basic-principles-of-object-oriented-programming-645af8b43727
@@ -108,8 +97,6 @@ topics:
       textTime: 0
       audioTime: 0
   - topic: "Lambda expressions"
-    isVisible: true
-    isDetails: false
     literature:
     - title: "Anatomy of the Lambda Expression"
       url: https://www.tutorialsteacher.com/linq/linq-lambda-expression
@@ -128,8 +115,6 @@ topics:
       textTime: 0
       audioTime: 0
   - topic: "Design patterns"
-    isVisible: true
-    isDetails: false
     literature:
     - title: "What’s a design pattern?"
       url: https://refactoring.guru/design-patterns/what-is-pattern
@@ -148,8 +133,6 @@ topics:
       textTime: 0
       audioTime: 0
   - topic: "Fluent API"
-    isVisible: true
-    isDetails: false
     literature:
     - title: "API vs. SDK: What's the difference? - YouTube"
       url: https://www.youtube.com/watch?v=kG-fLp9BTRo
@@ -183,8 +166,6 @@ topics:
       textTime: 0
       audioTime: 0
   - topic: "Diagrams"
-    isVisible: true
-    isDetails: false
     literature:
     - title: "What is Use Case Diagram?"
       url: https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-use-case-diagram/
@@ -192,8 +173,10 @@ topics:
       textTime: 0
       audioTime: 0
   - topic: "Reflection"
-    isVisible: true
-    isDetails: false
+    description: >
+      This is about reflections
+      
+      And it contains more
     literature:
     - title: "What is Reflection in C#?"
       url: https://www.geeksforgeeks.org/what-is-reflection-in-c-sharp/
@@ -212,8 +195,6 @@ topics:
       textTime: 0
       audioTime: 0
   - topic: "Attributes"
-    isVisible: true
-    isDetails: false
     optionalLiterature:
     - title: "Creating Custom Attributes (C#)"
       url: https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/attributes/creating-custom-attributes
