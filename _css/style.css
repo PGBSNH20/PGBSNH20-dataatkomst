@@ -12,10 +12,10 @@ h6{
     font-family: 'Oswald', sans-serif;
 }
 
-.section-des{
+/* .section-des{
     margin-left: 15%;
     margin-right: 15%;
-}
+} */
 
 .login-area{
     display: block;
@@ -73,7 +73,6 @@ h6{
 .heading h1 {
     font-size: 36px;
     display: inline-block;
-    padding-top: 6%;
     border-bottom: 5px solid rgb(23, 162, 184);
 }
 
@@ -86,4 +85,53 @@ h6{
     padding-bottom: 15px;
     padding-left: 10px;
     color:white
+}
+
+.overflow-scroll {
+    overflow: scroll;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lecture-date {
+    font-size: 1.2rem;
+    margin: 1rem 0 0 0;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+}
+
+table th, table td {
+    padding: .75rem;
+    vertical-align: middle !important;
+}
+
+table th {
+    font-family: 'Oswald', sans-serif;
+}
+
+.w-auto {
+    width: auto;
+}
+
+#archive {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.layout-lecture h2 {
+    margin-top: 1rem;
+}
+
+.layout-lecture h3 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.layout-lecture details {
+    margin-left: 1rem;
 }
