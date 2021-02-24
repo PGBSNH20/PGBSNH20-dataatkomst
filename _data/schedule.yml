@@ -98,12 +98,6 @@ weeks:
     activities: null
   - day: 2021-03-12
     weekday: "Fredag"
-    activities: null
-- week: 11
-  year: 2021
-  days:
-  - day: 2021-03-15
-    weekday: "Måndag"
     activities:
     - activity: lecture
       title: "Databas first"
@@ -111,13 +105,13 @@ weeks:
       number: "L5"
       slug: lectures/databasefirst
       description: "En teknik vart man börja med att skåpa en databas, kanske man har en eksisterende (legacy) databas"
-      start-full: 20210315T083000
-      end-full: 20210315T093000
-  - day: 2021-03-16
-    weekday: "Tisdag"
-    activities: null
-  - day: 2021-03-17
-    weekday: "Onsdag"
+      start-full: 20210312T083000
+      end-full: 20210312T093000
+- week: 11
+  year: 2021
+  days:
+  - day: 2021-03-15
+    weekday: "Måndag"
     activities:
     - activity: lecture
       title: "Code first"
@@ -125,8 +119,22 @@ weeks:
       number: "L6"
       slug: lectures/codefirst
       description: "En teknik vart man skåper en databas utifrån sin kod"
-      start-full: 20210317T090000
-      end-full: 20210317T160000
+      start-full: 20210315T090000
+      end-full: 20210315T160000
+  - day: 2021-03-16
+    weekday: "Tisdag"
+    activities: null
+  - day: 2021-03-17
+    weekday: "Onsdag"
+    activities:
+    - activity: lecture
+      title: "Dataåtkomst med Entity Framework"
+      titleEn: "Introduction"
+      number: "L7"
+      slug: lectures/dataaccess
+      description: "Dataåtkomst med Entity Framework"
+      start-full: 20210317T083000
+      end-full: 20210317T090000
   - day: 2021-03-18
     weekday: "Torsdag"
     lecture: null
@@ -140,27 +148,27 @@ weeks:
     weekday: "Måndag"
     activities:
     - activity: lecture
-      title: "Dataåtkomst med Entity Framework"
-      titleEn: "Introduction"
-      number: "L7"
-      slug: lectures/dataaccess
-      description: "Dataåtkomst med Entity Framework"
-      start-full: 20210322T083000
-      end-full: 20210322T090000
-  - day: 2021-03-23
-    weekday: "Tisdag"
-    activities: null
-  - day: 2021-03-24
-    weekday: "Onsdag"
-    activities:
-    - activity: lecture
       title: "Migrations och deployment"
       titleEn: "Introduction"
       number: "L8"
       slug: lectures/migration
       description: "Migrations och deployment"
+      start-full: 20210322T083000
+      end-full: 20210322T095000
+  - day: 2021-03-23
+    weekday: "Tisdag"
+    activities: null
+  - day: 2021-03-24
+    weekday: "Onsdag"
+    activities: 
+    - activity: lecture
+      title: "DBContext och Transactions"
+      titleEn: "Introduction"
+      number: "L9"
+      slug: lectures/dbcontext
+      description: "DBContext och Transactions"
       start-full: 20210324T083000
-      end-full: 20210324T095000
+      end-full: 20210324T093000
   - day: 2021-03-25
     weekday: "Torsdag"
     lecture: null
@@ -172,20 +180,6 @@ weeks:
   days:
   - day: 2021-03-29
     weekday: "Måndag"
-    activities: 
-    - activity: lecture
-      title: "DBContext och Transactions"
-      titleEn: "Introduction"
-      number: "L9"
-      slug: lectures/dbcontext
-      description: "DBContext och Transactions"
-      start-full: 20210329T083000
-      end-full: 20210329T093000
-  - day: 2021-03-30
-    weekday: "Tisdag"
-    activities: null
-  - day: 2021-03-31
-    weekday: "Onsdag"
     activities:
     - activity: lecture
       title: "Enhetstest med data"
@@ -193,6 +187,20 @@ weeks:
       number: "L10"
       slug: lectures/unittestdata
       description: "Enhetstest med data"
+      start-full: 20210329T090000
+      end-full: 20210329T160000
+  - day: 2021-03-30
+    weekday: "Tisdag"
+    activities: null
+  - day: 2021-03-31
+    weekday: "Onsdag"
+    activities:
+    - activity: lecture
+      title: "Datåtkomst och dokument databaser"
+      titleEn: "Introduction"
+      number: "L11"
+      slug: lectures/documentdb
+      description: "Datåtkomst och dokument databaser"
       start-full: 20210331T090000
       end-full: 20210331T160000
   - day: 2021-04-01
@@ -206,15 +214,6 @@ weeks:
   days:
   - day: 2021-04-05
     weekday: "Måndag"
-    activities:
-    - activity: lecture
-      title: "Datåtkomst och dokument databaser"
-      titleEn: "Introduction"
-      number: "L11"
-      slug: lectures/documentdb
-      description: "Datåtkomst och dokument databaser"
-      start-full: 20210405T090000
-      end-full: 20210405T160000
   - day: 2021-04-06
     weekday: "Tisdag"
     activities: null
