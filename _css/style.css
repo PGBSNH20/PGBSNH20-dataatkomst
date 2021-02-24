@@ -11,6 +11,10 @@ h6 {
   font-family: "Oswald", sans-serif;
 }
 
+ul{
+  list-style: none;
+}
+
 .section-des {
   margin-left: 15%;
   margin-right: 15%;
@@ -69,6 +73,7 @@ h6 {
 .funaral-bg h4,
 .planning-content h4,
 .section-des h2 {
+  margin-top: 1rem;
   border-bottom: 3px solid #ffc107;
   display: inline-block;
   padding-bottom: 5px;

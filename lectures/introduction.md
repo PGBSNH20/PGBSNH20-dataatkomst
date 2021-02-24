@@ -43,20 +43,20 @@ Denna lektion är en introduktion till kursen, samt dom första steg med projekt
             <div class="card">
                 <div class="card-header" id="headingOne">
                   <h2 class="mb-0 w-100">
-                    <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                      <h3 id="object-oriented-programming-and-c"><i class="bi bi-caret-right-fill"></i> 
+                    <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#ex{{forloop.index0}}" aria-expanded="false" aria-controls="ex{{forloop.index0}}">
+                      <h3 id="object-oriented-programming-and-c"><i class="bi bi-chevron-double-right"></i> 
                       {{topic.topic}}
                       </h3>
                     </button>
                   </h2>
                 </div>
-                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div id="ex{{forloop.index0}}" class="collapse " aria-labelledby="headingOne" data-parent="#accordionExample">
                   <div class="card-body">
                   <ul>
                   {% for mandatory in topic.literature %}
-                  <li>
+                  <li class="mb-3">
                        <a href="{{mandatory.url}}">{{mandatory.title}}</a>
-                       <span class="badge badge-info">Article</span><span class="badge badge-secondary">12min</span>
+                       <span class="badges"><span class="badge badge-info">Article</span><span class="badge badge-secondary">12min</span></span>
                     </li>
                   {% endfor %}
                   </ul>
@@ -64,9 +64,9 @@ Denna lektion är en introduktion till kursen, samt dom första steg med projekt
                   <summary>Frivillig fördjupningslitteratur innom {{topic.topic}} (klicka för att visa)</summary>
                   <ul>
                   {% for optional in topic.optionalLiterature %}
-                  <li>
+                  <li class="mb-4">
                   <a href="{{optional.url}}">{{optional.title}}</a>
-                  <span class="badge badge-info">Article</span><span class="badge badge-secondary">12min</span>
+                  <span class="badges"><span class="badge badge-info">Article</span><span class="badge badge-secondary">12min</span></span>
                   </li>
                   {%endfor%}
                   </ul>
@@ -74,4 +74,5 @@ Denna lektion är en introduktion till kursen, samt dom första steg med projekt
                   </div>
                 </div>
                 </div>
+                
                 {% endfor %}
