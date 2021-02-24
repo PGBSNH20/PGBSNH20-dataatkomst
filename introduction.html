@@ -1,0 +1,737 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Poppins:wght@300&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Dataåtkomst med .NET: Introduktion till kursen och C# refresh</title>
+</head>
+
+
+<body class="bg-light">
+
+  <section class="header">
+    <div class="header bg-info pt-3 pb-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="logo">
+              <a href="/PGBSNH20-dataatkomst//">
+                <h2 class="text-warning">Dataåtkomst, PGBSNH20</h2>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="cla float-right mt-2">
+              <a href="/PGBSNH20-dataatkomst//schedule" class="text-white p-2">Schema</a>
+              <a href="/PGBSNH20-dataatkomst//lectures" class="text-white p-2">Lektioner</a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+  <section class="planning-area bg-white">
+    <div class="container">
+      <div class="heading text-center p-4">
+        <h1>Introduktion till kursen och C# refresh</h1>
+        <h5>Måndag den 1:a Mars 2021</h5>
+      </div>
+      <div class="section-des">
+        <div class="row text-center">
+          <p>Denna lektion är en introduktion till kursen, samt dom första steg med projektet. Fastsällning av grupper.
+          </p>
+        </div>
+        <!-- Lektionsplan -->
+        <h2 class="mt-3" id="lektionsplan">Lektionsplan</h2>
+
+
+
+
+        <div class="card schedule-card">
+          <div class="card-body">
+            <div class="row">
+              <h5 class="pl-3"><i class="bi bi-calendar-week"></i> Lektion från kl. 8:30 till kl. 16:30 </h5>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-1 ">
+                <div class="circle"></div>
+
+              </div>
+              <div class="col-sm-2 p-0 schedule-txt">
+                08:30 - 09:30
+              </div>
+              <div class="col-sm-9 schedule-txt">
+                Introduktion
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-1">
+                <div class="circle"></div>
+              </div>
+              <div class="col-sm-2 p-0 schedule-txt">
+                09:45 - 11:00
+              </div>
+              <div class="col-sm-9 schedule-txt">
+                <i class="fa fa-comments" aria-hidden="true"></i> <a
+                  href="https://github.com/PGBSNH20/PGBSNH20-dataatkomst/discussions/3">C# refresh</a> (delta aktivt i
+                diskussionen)
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-1 ">
+                <div class="circle"></div>
+
+              </div>
+              <div class="col-sm-2 p-0 schedule-txt">
+                11:00 - 16:00
+              </div>
+              <div class="col-sm-9 schedule-txt">
+                Projekt
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-1 ">
+                <div class="circle"></div>
+
+              </div>
+              <div class="col-sm-2 p-0 schedule-txt">
+                16:00 - 16:30
+              </div>
+              <div class="col-sm-9 schedule-txt">
+                Samling och slut på dag
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+
+
+
+        <h2 class="mt-5" id="lektionsteori">Lektionsteori</h2>
+        <p><em>Detta är material (artiklar, videoer, blogs, podcasts etc) som är den teoretiska bas för denna lektion,
+            det antas att du har läst/set/lystnad detta innan lektionen starter.</em></p>
+
+
+
+
+
+
+        <div class="accordion" id="accordionExample">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h2 class="mb-0 w-100">
+                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+                  data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  <h3 id="object-oriented-programming-and-c"><i class="bi bi-caret-right-fill"></i> Object Oriented
+                    Programming and C#</h3>
+                </button>
+              </h2>
+            </div>
+
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-body">
+                <ul>
+                  <li>
+                    <p><a
+                        href="https://medium.com/@cancerian0684/what-are-four-basic-principles-of-object-oriented-programming-645af8b43727">What
+                        are four basic principles of Object Oriented Programming? - by Munish Chandel - Medium</a>
+                      <span class="badges">
+                        <span class="badge badge-info">article</span><span class="badge badge-secondary">12 min</span>
+                      </span>
+                    </p>
+                  </li>
+                  <li>
+                    <p><a href="https://brilliant.org/wiki/classes-oop/">Classes (OOP) - Brilliant Math &amp; Science
+                        Wiki</a>
+                      <span class="badges">
+                        <span class="badge badge-info">article</span><span class="badge badge-secondary">12 min</span>
+                      </span>
+                    </p>
+                  </li>
+                  <li>
+                    <p><a href="https://brilliant.org/wiki/object-oriented-programming/">Object-Oriented Programming -
+                        Brilliant
+                        Math &amp; Science Wiki</a>
+                      <span class="badges">
+                        <span class="badge badge-info">article</span><span class="badge badge-secondary">12 min</span>
+                      </span>
+                    </p>
+                  </li>
+                  <li>
+                    <p><a href="https://tech.io/playgrounds/52999/c-refresh/welcome">Welcome - C# Refresh</a>
+                      <span class="badges">
+                        <span class="badge badge-info">article</span><span class="badge badge-secondary">12 min</span>
+                      </span>
+                    </p>
+                  </li>
+                  <li>
+                    <p><a
+                        href="https://sanaulla.info/2008/06/26/cohesion-and-coupling-two-oo-design-principles/">Cohesion
+                        and
+                        Coupling: Two OO Design Principles – Experiences Unlimited</a>
+                      <span class="badges">
+                        <span class="badge badge-info">article</span><span class="badge badge-secondary">12 min</span>
+                      </span>
+                    </p>
+                  </li>
+                  <!-- <li>
+                    <p>Total articles
+                      <span class="badges">
+                        <span class="badge badge-info">articles</span><span class="badge badge-secondary">12 min</span>
+                      </span>
+                      <p>Total videos
+                        <span class="badges">
+                          <span class="badge badge-danger">videos</span><span class="badge badge-secondary">0 min</span>
+                        </span>
+                    </p>
+                  </li> -->
+                </ul>
+
+
+                <details>
+                  <summary>Frivillig fördjupningslitteratur innom Object Oriented Programming and C# (klicka för att
+                    visa)
+                  </summary>
+
+                  <ul>
+                    <li>
+                      <p><a href="https://dzone.com/articles/stateful-or-stateless-classes">Object-Oriented Design
+                          Decisions:
+                          Stateful or Stateless Classes?</a>
+                        <span class="badges">
+                          <span class="badge badge-info">article</span><span class="badge badge-secondary">12 min</span>
+                        </span>
+                      </p>
+                    </li>
+                    <li>
+                      <p><a href="https://www.tutorialspoint.com/csharp/csharp_polymorphism.htm">C# - Polymorphism -
+                          Tutorialspoint</a>
+                        <span class="badges">
+                          <span class="badge badge-info">article</span><span class="badge badge-secondary">12 min</span>
+                        </span>
+                      </p>
+                    </li>
+                    <li>
+                      <p><a href="https://www.geeksforgeeks.org/c-sharp-abstraction/">C# - Abstraction -
+                          GeeksforGeeks</a>
+                        <span class="badges">
+                          <span class="badge badge-info">article</span><span class="badge badge-secondary">12 min</span>
+                        </span>
+                      </p>
+                    </li>
+                    <li>
+                      <p><a href="http://c2.com/doc/oopsla89/paper.html">A Laboratory For Teaching Object-Oriented
+                          Thinking</a>
+                        <span class="badges">
+                          <span class="badge badge-info">article</span><span class="badge badge-secondary">12 min</span>
+                        </span>
+                      </p>
+                    </li>
+                    <li>
+                      <p class="mr-2"><a
+                          href="https://codeburst.io/how-to-do-object-oriented-programming-the-right-way-1339c1a25286">How
+                          To
+                          Do Object Oriented Programming The Right Way - by Xiaoyun Yang - codeburst</a>
+                        <span class="badges">
+                          <span class="badge badge-info">article</span><span class="badge badge-secondary">12 min</span>
+                        </span>
+                      </p>
+                    </li>
+                    <li>
+                      <p><a href="https://wiki.c2.com/?CouplingAndCohesion">Coupling And Cohesion</a>
+                        <span class="badges">
+                          <span class="badge badge-info">article</span><span class="badge badge-secondary">12 min</span>
+                        </span>
+                      </p>
+                    </li>
+                    <li>
+                      <p><a href="https://ovid.github.io/articles/alan-kay-and-oo-programming.html">Alan Kay and OO
+                          Programming</a>
+                        <span class="badges">
+                          <span class="badge badge-info">article</span><span class="badge badge-secondary">12 min</span>
+                        </span>
+                      </p>
+                    </li>
+                    <li>
+                      <p><a href="https://stackify.com/oop-concept-for-beginners-what-is-encapsulation/">OOP Concept for
+                          Beginners: What is Encapsulation – Stackify</a>
+                        <span class="badges">
+                          <span class="badge badge-info">article</span><span class="badge badge-secondary">12 min</span>
+                        </span>
+                      </p>
+                    </li>
+                    <li>
+                      <p><a
+                          href="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/inheritance">Inheritance
+                          - C# Programming Guide - Microsoft Docs</a>
+                        <span class="badges">
+                          <span class="badge badge-info">article</span><span class="badge badge-secondary">12 min</span>
+                        </span>
+                      </p>
+                    </li>
+                    <li>
+                      <p><a href="https://www.tutorialspoint.com/csharp/csharp_inheritance.htm">C# - Inheritance -
+                          Tutorialspoint</a>
+                        <span class="badges">
+                          <span class="badge badge-info">article</span><span class="badge badge-secondary">12 min</span>
+                        </span>
+                      </p>
+                    </li>
+                    <li>
+                      <p><a
+                          href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/abstract">abstract
+                          - C# Reference - Microsoft Docs</a>
+                        <span class="badges">
+                          <span class="badge badge-info">article</span><span class="badge badge-secondary">12 min</span>
+                        </span>
+                      </p>
+                    </li>
+                    <li>
+                      <p><a
+                          href="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/polymorphism">Polymorphism
+                          - C# Programming Guide - Microsoft Docs</a>
+                        <span class="badges">
+                          <span class="badge badge-info">article</span><span class="badge badge-secondary">12 min</span>
+                        </span>
+                      </p>
+                    </li>
+                    <!-- <li>
+                      <p>Total articles
+                        <span class="badges">
+                          <span class="badge badge-info">articles</span><span class="badge badge-secondary">12 min</span>
+                        </span>
+                        <p>Total videos
+                          <span class="badges">
+                            <span class="badge badge-danger">videos</span><span class="badge badge-secondary">0 min</span>
+                          </span>
+                      </p>
+                    </li> -->
+                  </ul>
+
+                </details>
+
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h2 class="mb-0 w-100">
+                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                  data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  <h3 id="lambda-expressions"><i class="bi bi-caret-right-fill"></i> Lambda expressions</h3>
+                </button>
+              </h2>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+              <div class="card-body">
+
+
+                <ul>
+                  <li><a href="https://www.tutorialsteacher.com/linq/linq-lambda-expression">Anatomy of the Lambda
+                      Expression</a>
+                    <span class="badges">
+                      <span class="badge badge-info">article</span><span class="badge badge-secondary">12 min</span>
+                    </span>
+                  </li>
+                </ul>
+
+                <details>
+                  <summary>Frivillig fördjupningslitteratur innom Lambda expressions (klicka för att visa)</summary>
+
+                  <ul>
+                    <li>
+                      <p><a
+                          href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/lambda-expressions">Lambda
+                          expressions</a>
+                        <span class="badges">
+                          <span class="badge badge-info">article</span><span class="badge badge-secondary">12 min</span>
+                        </span>
+                      </p>
+                    </li>
+                    <li>
+                      <p><a
+                          href="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/delegates/">Delegates</a>
+                          <span class="badges">
+                            <span class="badge badge-info">article</span><span class="badge badge-secondary">12 min</span>
+                          </span>
+                      </p>
+                    </li>
+                    <!-- <li>
+                      <p>Total articles
+                        <span class="badges">
+                          <span class="badge badge-info">articles</span><span class="badge badge-secondary">12 min</span>
+                        </span>
+                        <p>Total videos
+                          <span class="badges">
+                            <span class="badge badge-danger">videos</span><span class="badge badge-secondary">0 min</span>
+                          </span>
+                      </p>
+                    </li> -->
+                  </ul>
+
+                </details>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h2 class="mb-0 w-100">
+                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                  data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  <h3 id="design-patterns"><i class="bi bi-caret-right-fill"></i> Design patterns</h3>
+                </button>
+              </h2>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+              <div class="card-body">
+
+                <ul>
+                  <li><a href="https://refactoring.guru/design-patterns/what-is-pattern">What’s a design pattern?</a>
+                    <span class="badges">
+                      <span class="badge badge-info">article</span><span class="badge badge-secondary">12 min</span>
+                    </span></li>
+                </ul>
+
+                <details>
+                  <summary>Frivillig fördjupningslitteratur innom Design patterns (klicka för att visa)</summary>
+
+                  <ul>
+                    <li>
+                      <p><a href="https://codewithmukesh.com/blog/repository-pattern-in-aspnet-core/">Repository Pattern
+                          in
+                          ASP.NET Core</a>
+                        <span class="badges">
+                          <span class="badge badge-info">article</span><span class="badge badge-secondary">12 min</span>
+                        </span>
+                      </p>
+                    </li>
+                    <li>
+                      <p><a href="https://www.dofactory.com/net/design-patterns">.NET Design Patterns in C# - Gang of
+                          Four
+                          (GOF)</a>
+                        <span class="badges">
+                          <span class="badge badge-info">article</span><span class="badge badge-secondary">12 min</span>
+                        </span>
+                      </p>
+                    </li>
+                    <!-- <li>
+                      <p>Total articles
+                        <span class="badges">
+                          <span class="badge badge-info">articles</span><span class="badge badge-secondary">12 min</span>
+                        </span>
+                        <p>Total videos
+                          <span class="badges">
+                            <span class="badge badge-danger">videos</span><span class="badge badge-secondary">0 min</span>
+                          </span>
+                      </p>
+                    </li> -->
+                  </ul>
+
+                </details>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="headingFour">
+              <h2 class="mb-0 w-100">
+                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                  data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  <h3 id="fluent-api"><i class="bi bi-caret-right-fill"></i> Fluent API</h3>
+                </button>
+              </h2>
+            </div>
+            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+              <div class="card-body">
+                <ul>
+                  <li>
+                    <p><a href="https://www.youtube.com/watch?v=kG-fLp9BTRo">API vs. SDK: What’s the difference? -
+                        YouTube</a>
+                      <span class="badges">
+                        <span class="badge badge-danger">video</span><span class="badge badge-secondary">9 min</span>
+                      </span>
+                    </p>
+                  </li>
+                  <li>
+                    <p><a href="https://www.pluralsight.com/blog/software-development/about-fluent-api">3 reasons why
+                        fluent
+                        APIs matter</a>
+                      <span class="badges">
+                        <span class="badge badge-info">article</span><span class="badge badge-secondary">12 min</span>
+                      </span>
+                    </p>
+                  </li>
+                  <!-- <li>
+                    <p>Total articles
+                      <span class="badges">
+                        <span class="badge badge-info">articles</span><span class="badge badge-secondary">12 min</span>
+                      </span>
+                      <p>Total videos
+                        <span class="badges">
+                          <span class="badge badge-danger">videos</span><span class="badge badge-secondary">0 min</span>
+                        </span>
+                    </p>
+                  </li> -->
+                </ul>
+
+                <details>
+                  <summary>Frivillig fördjupningslitteratur innom Fluent API (klicka för att visa)</summary>
+
+                  <ul>
+                    <li>
+                      <p><a
+                          href="https://medium.com/@ohadinho25/developing-a-fluent-api-is-so-cool-25e99cb64f7d">Developing
+                          a
+                          Fluent API is so cool !</a>
+                        <span class="badges">
+                          <span class="badge badge-info">article</span><span class="badge badge-secondary">12 min</span>
+                        </span>
+                      </p>
+                    </li>
+                    <li>
+                      <p><a href="https://www.red-gate.com/simple-talk/dotnet/net-framework/fluent-code-in-c/">Fluent
+                          Code in
+                          C#</a>
+                        <span class="badges">
+                          <span class="badge badge-info">article</span><span class="badge badge-secondary">12 min</span>
+                        </span>
+                      </p>
+                    </li>
+                    <li>
+                      <p><a href="https://www.linkedin.com/learning/fluent-api-development-in-c-sharp/welcome">Fluent
+                          API
+                          Development in C#</a>
+                        <span class="badges">
+                          <span class="badge badge-info">article</span><span class="badge badge-secondary">12 min</span>
+                        </span>
+                      </p>
+                    </li>
+                    <li>
+                      <p><a href="https://martinfowler.com/bliki/FluentInterface.html">FluentInterface</a>
+                        <span class="badges">
+                          <span class="badge badge-info">article</span><span class="badge badge-secondary">12 min</span>
+                        </span>
+                      </p>
+                    </li>
+                    <!-- <li>
+                      <p>Total articles
+                        <span class="badges">
+                          <span class="badge badge-info">articles</span><span class="badge badge-secondary">12 min</span>
+                        </span>
+                        <p>Total videos
+                          <span class="badges">
+                            <span class="badge badge-danger">videos</span><span class="badge badge-secondary">0 min</span>
+                          </span>
+                      </p>
+                    </li> -->
+                  </ul>
+
+                </details>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="headingFive">
+              <h2 class="mb-0 w-100">
+                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                  data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                  <h3 id="diagrams"><i class="bi bi-caret-right-fill"></i> Diagrams</h3>
+                </button>
+              </h2>
+            </div>
+            <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+              <div class="card-body">
+                <ul>
+                  <li><a
+                      href="https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-use-case-diagram/">What
+                      is Use Case Diagram?</a>
+                    <span class="badges">
+                      <span class="badge badge-info">article</span><span class="badge badge-secondary">12 min</span>
+                    </span>
+                  </li>
+                </ul>
+
+                <details>
+                  <summary>Frivillig fördjupningslitteratur innom Diagrams (klicka för att visa)</summary>
+
+                </details>
+
+
+
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="headingSix">
+              <h2 class="mb-0 w-100">
+                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                  data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                  <h3 id="reflection"><i class="bi bi-caret-right-fill"></i> Reflection</h3>
+                </button>
+              </h2>
+            </div>
+            <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+              <div class="card-body">
+
+
+                <ul>
+                  <li><a href="https://www.geeksforgeeks.org/what-is-reflection-in-c-sharp/">What is Reflection in
+                      C#?</a>
+                    <span class="badges">
+                      <span class="badge badge-info">article</span><span class="badge badge-secondary">12 min</span>
+                    </span>
+                  </li>
+                </ul>
+
+                <details>
+                  <summary>Frivillig fördjupningslitteratur innom Reflection (klicka för att visa)</summary>
+
+                  <ul>
+                    <li>
+                      <p><a
+                          href="https://docs.microsoft.com/en-us/dotnet/framework/reflection-and-codedom/dynamically-loading-and-using-types">Dynamically
+                          Loading and Using Types</a>
+                        <span class="badges">
+                          <span class="badge badge-info">article</span><span class="badge badge-secondary">12 min</span>
+                        </span>
+                      </p>
+                    </li>
+                    <li>
+                      <p><a
+                          href="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/reflection">Reflection
+                          (C#)</a>
+                        <span class="badges">
+                          <span class="badge badge-info">article</span><span class="badge badge-secondary">12 min</span>
+                        </span>
+                      </p>
+                    </li>
+                    <!-- <li>
+                      <p>Total articles
+                        <span class="badges">
+                          <span class="badge badge-info">articles</span><span class="badge badge-secondary">12 min</span>
+                        </span>
+                        <p>Total videos
+                          <span class="badges">
+                            <span class="badge badge-danger">videos</span><span class="badge badge-secondary">0 min</span>
+                          </span>
+                      </p>
+                    </li> -->
+                  </ul>
+
+                </details>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="headingSeven">
+              <h2 class="mb-0 w-100">
+                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                  data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                  <h3 id="attributes"><i class="bi bi-caret-right-fill"></i> Attributes</h3>
+                </button>
+              </h2>
+            </div>
+            <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
+              <div class="card-body">
+
+                <details>
+                  <summary>Frivillig fördjupningslitteratur innom Attributes (klicka för att visa)</summary>
+
+                  <ul>
+                    <li>
+                      <p><a
+                          href="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/attributes/creating-custom-attributes">Creating
+                          Custom Attributes (C#)</a>
+                        <span class="badges">
+                          <span class="badge badge-info">article</span><span class="badge badge-secondary">12 min</span>
+                        </span>
+                      </p>
+                    </li>
+                    <li>
+                      <p><a
+                          href="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/attributes/">Attributes
+                          (C#)</a>
+                        <span class="badges">
+                          <span class="badge badge-info">article</span><span class="badge badge-secondary">12 min</span>
+                        </span>
+                      </p>
+                    </li>
+                    <!-- <li>
+                      <p>Total articles
+                        <span class="badges">
+                          <span class="badge badge-info">articles</span><span class="badge badge-secondary">12 min</span>
+                        </span>
+                        <p>Total videos
+                          <span class="badges">
+                            <span class="badge badge-danger">videos</span><span class="badge badge-secondary">0 min</span>
+                          </span>
+                      </p>
+                    </li> -->
+                  </ul>
+
+                </details>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="headingEight">
+              <h2 class="mb-0 w-100">
+                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                  data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                  <h2 id="uppgift"><i class="bi bi-caret-right-fill"></i> Uppgift</h2>
+                </button>
+              </h2>
+            </div>
+            <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordionExample">
+              <div class="card-body">
+                <p>blala</p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+      </div>
+    </div>
+  </section>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
