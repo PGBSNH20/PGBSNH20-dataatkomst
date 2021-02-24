@@ -53,12 +53,13 @@ weeks:
     activities:
     - activity: lecture
       title: "Enhetstest och clean code"
-      titleEn: "Introduction"
+      titleEn: "Unit test and clean code"
       number: "L2"
       slug: lectures/cleancode
-      description: "Enhetstest och clean code"
+      description: "Hur kan vi automatisk verificera vår kod och skriva kod som är enklare att läsa"
       start-full: 20210303T083000
       end-full: 20210303T120000
+      discussion: https://github.com/PGBSNH20/PGBSNH20-dataatkomst/discussions/6
   - day: 2021-03-04
     weekday: "Torsdag"
     activities: null
@@ -73,12 +74,13 @@ weeks:
     activities:
     - activity: lecture
       title: "Trådning uppstart"
-      titleEn: "Introduction"
+      titleEn: "Getting started with threading"
       number: "L3"
       slug: lectures/threading
-      description: "Trådning uppstart"
+      description: "Trådar på datorer handlar om att få två sakar att hända samtidigt"
       start-full: 20210308T083000
       end-full: 20210308T093000
+      discussion: https://github.com/PGBSNH20/PGBSNH20-dataatkomst/discussions/8
   - day: 2021-03-09
     weekday: "Tisdag"
     activities: null
@@ -87,10 +89,10 @@ weeks:
     activities:
     - activity: lecture
       title: "ORM och tasks"
-      titleEn: "Introduction"
+      titleEn: "ORM and tasks"
       number: "L4"
       slug: lectures/ormtask
-      description: "ORM och tasks"
+      description: "Man använder ett ORM till automatisk att kopla data till objekter, vi titter på hur man kan göra det. Vi försätter med att titta på hur man kan jobba asynkront i C#, i nu med tasks"
       start-full: 20210310T083000
       end-full: 20210310T093000
   - day: 2021-03-11
@@ -100,13 +102,14 @@ weeks:
     weekday: "Fredag"
     activities:
     - activity: lecture
-      title: "Databas first"
-      titleEn: "Introduction"
+      title: "Databas först / Database first"
+      titleEn: "Database first"
       number: "L5"
       slug: lectures/databasefirst
       description: "En teknik vart man börja med att skåpa en databas, kanske man har en eksisterende (legacy) databas"
       start-full: 20210312T083000
       end-full: 20210312T093000
+      discussion: https://github.com/PGBSNH20/PGBSNH20-dataatkomst/discussions/10
 - week: 11
   year: 2021
   days:
