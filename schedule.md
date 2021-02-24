@@ -7,7 +7,7 @@ permalink: /schedule/
 <h1>Schema</h1>
 
 <p>Start: {{ site.course-start}}, slut: {{ site.course-end}}</p>
-
+<div class="section-des">
 <table class="table table-bordered border-primary">
   <thead>
     <tr>
@@ -43,3 +43,4 @@ permalink: /schedule/
     {% endfor %}
   </tbody>
 </table>
+</div>
