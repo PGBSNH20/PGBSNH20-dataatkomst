@@ -13,7 +13,7 @@ permalink: /lectures/
                   <div class="card-header text-center">
                         <h4>Vecka: {{week.week}}</h4>
                   </div>
-                        <div class="card-body">
+                        <div class="card-body" >
                               <div class="row mt-3">
                                     <ul class="list-group lectures-list lec-first">
                                     {% for day in week.days %}
@@ -32,6 +32,8 @@ permalink: /lectures/
                                     {% endfor %}
                                     </ul>
                               </div>
+                        </div>
+                        <div class="card-footer text-center">
                         </div>
                   </div>
       </div>

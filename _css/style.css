@@ -142,7 +142,7 @@ h6 {
 }
 .lectures-card {
     box-shadow: 0 2px 20px -2px rgba(0, 0, 0, 0.1);
-    height: 475px;
+    /* height: 475px; */
     margin-bottom: 25px;
 }
 .last-row .col-lg-4 .lectures-card{

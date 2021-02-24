@@ -5,8 +5,12 @@ lectureDate: Måndag den 1:a Mars 2021
 permalink: /lectures/introduction
 ---
 
-
-Denna lektion är en introduktion till kursen, samt dom första steg med projektet. Fastsällning av grupper.
+<div class="section-des">
+        <div class="row text-center">
+          <p>Denna lektion är en introduktion till kursen, samt dom första steg med projektet. Fastsällning av grupper.
+          </p>
+        </div>
+</div>
 
 ## Lektionsplan
 Lektion från kl. 8:30 till kl. 16:30
