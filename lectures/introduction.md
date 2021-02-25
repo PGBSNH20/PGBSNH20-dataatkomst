@@ -44,9 +44,9 @@ Denna lektion är en introduktion till kursen, samt dom första steg med projekt
                 <div class="card-header" id="headingOne">
                   <h2 class="mb-0 w-100">
                     <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#ex{{forloop.index0}}" aria-expanded="false" aria-controls="ex{{forloop.index0}}">
-                      <h3 id="object-oriented-programming-and-c"><i class="bi bi-chevron-double-right"></i> 
+                      <h5 id="object-oriented-programming-and-c"><i class="bi bi-chevron-double-right"></i> 
                       {{topic.topic}}
-                      </h3>
+                      </h5>
                     </button>
                   </h2>
                 </div>
@@ -55,7 +55,7 @@ Denna lektion är en introduktion till kursen, samt dom första steg med projekt
                   <ul>
                   {% for mandatory in topic.literature %}
                   <li class="mb-3">
-                       <a href="{{mandatory.url}}">{{mandatory.title}}</a>
+                       <i class="bi bi-chevron-double-right lec-icon"></i><a href="{{mandatory.url}}"> {{mandatory.title}}</a>
                       {% if mandatory.timeMinutes %} 
                         <span class="badges"><span class="badge badge-{{mandatory.timeBadge}}">{{mandatory.timeDescription}}</span><span class="badge badge-secondary">{{mandatory.timeMinutes}} min</span></span>
                       {% endif %}

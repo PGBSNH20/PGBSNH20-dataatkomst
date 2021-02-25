@@ -14,7 +14,7 @@ topics:
       url: https://medium.com/@cancerian0684/what-are-four-basic-principles-of-object-oriented-programming-645af8b43727
       timeDescription: Video
       timeMinutes: 23
-      timeBadge: info
+      timeBadge: danger
     - title: "Classes (OOP) - Brilliant Math & Science Wiki"
       url: https://brilliant.org/wiki/classes-oop/
       timeDescription: Article
@@ -24,7 +24,7 @@ topics:
       url: https://brilliant.org/wiki/object-oriented-programming/
       timeDescription: Podcast
       timeMinutes: 56
-      timeBadge: info
+      timeBadge: success
     - title: "Welcome - C# Refresh"
       url: https://tech.io/playgrounds/52999/c-refresh/welcome
       videoTime: 0

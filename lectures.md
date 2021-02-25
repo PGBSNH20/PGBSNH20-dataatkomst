@@ -14,16 +14,14 @@ permalink: /lectures/
                         <h4>Vecka: {{week.week}}</h4>
                   </div>
                         <div class="card-body" >
-                              <div class="row mt-3">
+                              <div class="row mt-2">
                               {% for day in week.days %}
                                     {% if day.activities %}
                                     <ul class="list-group lectures-list lec-first">
-                                    <h6 class="card-subtitle mb-2 text-muted postlower ml-3">{{ day.day }} - {{day.weekday}}</h6>
-
                                     {% for activity in day.activities %}
                                     {% if activity.activity == "lecture" %}
                                           <li class="list-group-item">
-                                                
+                                                <h6 class="card-subtitle mb-2 text-muted postlower ml-3">{{ day.day }} - {{day.weekday}}</h6>
                                                 <i class="bi bi-chevron-double-right lec-icon"></i> <a href="{{ activity.slug | prepend: site.baseurl }}">{{ activity.title }}</a>
                                                 {% if activity.discussion %}<a href="{{activity.discussion}}"><i class="fa fa-comments" aria-hidden="true"></i></a><br>{% endif %}
                                                 <p class="description"> {{ activity.description }}</p>
@@ -32,7 +30,6 @@ permalink: /lectures/
                                     {% endfor %}
                                     </ul>
                                     {% endif %}
-                                    
                                     {% endfor %}
                               </div>
                         </div>
