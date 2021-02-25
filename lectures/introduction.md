@@ -56,7 +56,9 @@ Denna lektion är en introduktion till kursen, samt dom första steg med projekt
                   {% for mandatory in topic.literature %}
                   <li class="mb-3">
                        <a href="{{mandatory.url}}">{{mandatory.title}}</a>
-                       <span class="badges"><span class="badge badge-info">Article</span><span class="badge badge-secondary">12min</span></span>
+                      {% if mandatory.timeMinutes %} 
+                        <span class="badges"><span class="badge badge-{{mandatory.timeBadge}}">{{mandatory.timeDescription}}</span><span class="badge badge-secondary">{{mandatory.timeMinutes}} min</span></span>
+                      {% endif %}
                     </li>
                   {% endfor %}
                   </ul>
