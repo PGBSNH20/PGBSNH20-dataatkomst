@@ -24,7 +24,7 @@ Denna lektion är en introduktion till kursen, samt dom första steg med projekt
               </div>
               <div class="col-sm-9 schedule-txt">
               {% if activity.discussion %}
-              <a href="{{activity.discussion}}">{{activity.title}}</a> <i class="fa fa-comments" aria-hidden="true"></i> 
+              <a href="{{activity.discussion}}"><i class="fa fa-comments" aria-hidden="true"></i> {{activity.title}}</a>
               (delta aktivt i diskussionen){% else %}{{activity.title}} {% endif %}
               </div>
             </div>
