@@ -12,19 +12,19 @@ topics:
     literature:
     - title: "What are four basic principles of Object Oriented Programming? - by Munish Chandel - Medium"
       url: https://medium.com/@cancerian0684/what-are-four-basic-principles-of-object-oriented-programming-645af8b43727
-      videoTime: 0
-      textTime: 0
-      audioTime: 0
+      timeDescription: Video
+      timeMinutes: 23
+      timeBadge: danger
     - title: "Classes (OOP) - Brilliant Math & Science Wiki"
       url: https://brilliant.org/wiki/classes-oop/
-      videoTime: 0
-      textTime: 0
-      audioTime: 0
+      timeDescription: Article
+      timeMinutes: 15
+      timeBadge: info
     - title: "Object-Oriented Programming - Brilliant Math & Science Wiki"
       url: https://brilliant.org/wiki/object-oriented-programming/
-      videoTime: 0
-      textTime: 0
-      audioTime: 0
+      timeDescription: Podcast
+      timeMinutes: 56
+      timeBadge: success
     - title: "Welcome - C# Refresh"
       url: https://tech.io/playgrounds/52999/c-refresh/welcome
       videoTime: 0

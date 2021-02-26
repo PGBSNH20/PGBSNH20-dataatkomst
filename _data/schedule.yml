@@ -4,6 +4,7 @@ course:
 weeks:
 - week: 09
   year: 2021
+  description: During this week will we get up into gear with C#
   days:
   - day: 2021-03-01
     weekday: "Måndag"
@@ -68,6 +69,7 @@ weeks:
     activities: null
 - week: 10
   year: 2021
+  description: During this week will we do something fun
   days:
   - day: 2021-03-08
     weekday: "Måndag"
@@ -112,6 +114,7 @@ weeks:
       discussion: https://github.com/PGBSNH20/PGBSNH20-dataatkomst/discussions/10
 - week: 11
   year: 2021
+  description: During this week will we do something fun
   days:
   - day: 2021-03-15
     weekday: "Måndag"
@@ -146,6 +149,7 @@ weeks:
     lecture: null
 - week: 12
   year: 2021
+  description: During this week will we do something fun
   days:
   - day: 2021-03-22
     weekday: "Måndag"
@@ -180,6 +184,7 @@ weeks:
     lecture: null
 - week: 13
   year: 2021
+  description: During this week will we do something fun
   days:
   - day: 2021-03-29
     weekday: "Måndag"
@@ -214,6 +219,7 @@ weeks:
     activities: null
 - week: 14
   year: 2021
+  description: During this week will we do something fun
   days:
   - day: 2021-04-05
     weekday: "Måndag"
@@ -239,6 +245,7 @@ weeks:
     activities: null
 - week: 15
   year: 2021
+  description: During this week will we wrap up everything
   days:
   - day: 2021-04-12
     weekday: "Måndag"
