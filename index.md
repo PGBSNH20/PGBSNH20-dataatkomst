@@ -3,6 +3,6 @@ layout: welcome
 title: Välkommen till Dataåtkomst 2020, Göteborg
 ---
 
-Man måste komma åt data
+I denna kurs ska vi utveckla lära hos hur vi kommar åt data på olika sätt, specielt är fokus på databaser och Entity Framework
 
-[Manifest för Producera och leverera mjukvaror]({{ "/manifest" | prepend: site.baseurl }})
+[Manifest för Dataåtkomst]({{ "/manifest" | prepend: site.baseurl }})
