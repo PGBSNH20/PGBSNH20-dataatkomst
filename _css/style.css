@@ -15,6 +15,10 @@ ul{
   list-style: none;
 }
 
+ul h6:not(:first-of-type){
+  margin-top: 15px;
+}
+
 .section-des {
   margin-left: 15%;
   margin-right: 15%;
@@ -115,25 +119,12 @@ ul{
 #lektioner{
   margin-bottom: 35px;
 }
-#lektioner:after {
-    position: absolute;
-    content: "";
-    top: 170px;
-    width: 147px;
-    height: 3px;
-    background: #17a2b8;
-    left: calc(50% - 74px);
-}
-@media(max-width:678px) {
-#lektioner:after{
-    position: absolute;
-    content: "";
-    top: 215px;
-    width: 145px;
-    height: 3px;
-    background: #17a2b8;
-    left: calc(50% - 74px);
-  }
+
+h1{
+    font-size: 36px;
+    display: inline-block;
+    padding-top: 6%;
+    border-bottom: 5px solid rgb(23, 162, 184);
 }
 .description{
   margin-top: 0;
@@ -170,8 +161,13 @@ border-bottom: 1px solid rgba(0,0,0,.125);
   border: none;
 }
 .card-subtitle {
-    color: #000!important
+    color: #000!important;
 }
+
+.row ul:not(:first-of-type){
+  margin-top: 18px;
+}
+
 .lec-icon{
   color: #ffc107;
 }
@@ -215,13 +211,13 @@ li a{
 .schedule-card{
   box-shadow: 0 2px 20px -2px rgba(0, 0, 0, 0.1);
 }
-.btn-link h5 , #uppgift{
+.btn-link h4 , #uppgift{
   color: #000;
 }
 .btn-link:hover{
   text-decoration: none;
 }
-.btn-link:hover h5 ,.btn-link:hover #uppgift{
+.btn-link:hover h4 ,.btn-link:hover #uppgift{
   color: #17a2b8;
 }
 .btn-link:focus {
@@ -231,6 +227,7 @@ li a{
 .accordion .card .card-header h2{
     border:none;
 }
+
 
 summary {
     display: list-item;
@@ -261,26 +258,7 @@ summary:focus{
 
 
 /*============================= schedule style ======================*/
-#schema:after{
-  position: absolute;
-  content: "";
-  top: 170px;
-  width: 80px;
-  height: 3px;
-  background: #17a2b8;
-  left: calc(50% - 40px);
-}
-@media(max-width:678px) {
-  #schema:after{
-    position: absolute;
-    content: "";
-    top: 205px;
-    width: 80px;
-    height: 3px;
-    background: #17a2b8;
-    left: calc(50% - 40px);
-  }
-}
+
 table{
   box-shadow: 0 2px 20px -2px rgba(0, 0, 0, 0.1);
 }
