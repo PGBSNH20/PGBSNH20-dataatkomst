@@ -1,6 +1,6 @@
 :root {
     --main: #17a2b8;
-    --sub: #dd4d0a;
+    --sub: #0a0ddd;
   }
   
   body {
@@ -119,7 +119,9 @@
     background-color: var(--main) !important;
   }
   
-  
+  h2.text-warning{
+    color: var(--sub) !important;
+  }
   
   /*========================== lectures style ======================*/
   
