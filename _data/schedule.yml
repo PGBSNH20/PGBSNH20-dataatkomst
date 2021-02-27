@@ -88,7 +88,6 @@ weeks:
     - activity: lecture
       title: "Trådning uppstart"
       titleEn: "Getting started with threading"
-      number: "L3"
       slug: lectures/threading
       description: "Trådar på datorer handlar om att få två sakar att hända samtidigt"
       start-full: 20210308T083000
@@ -103,7 +102,6 @@ weeks:
     - activity: lecture
       title: "ORM och tasks"
       titleEn: "ORM and tasks"
-      number: "L4"
       slug: lectures/ormtask
       description: "Man använder ett ORM till automatisk att kopla data till objekter, vi titter på hur man kan göra det. Vi försätter med att titta på hur man kan jobba asynkront i C#, i nu med tasks"
       start-full: 20210310T083000
@@ -117,7 +115,6 @@ weeks:
     - activity: lecture
       title: "Databas först / Database first"
       titleEn: "Database first"
-      number: "L5"
       slug: lectures/databasefirst
       description: "En teknik vart man börja med att skåpa en databas, kanske man har en eksisterende (legacy) databas"
       start-full: 20210312T083000
@@ -227,6 +224,7 @@ weeks:
     activities: null
   - day: 2021-04-02
     weekday: "Fredag"
+    background-color: "#FFD0C6"
     activities: null
 - week: 14
   year: 2021
@@ -234,6 +232,7 @@ weeks:
   days:
   - day: 2021-04-05
     weekday: "Måndag"
+    background-color: "#FFD0C6"
   - day: 2021-04-06
     weekday: "Tisdag"
     activities: null
