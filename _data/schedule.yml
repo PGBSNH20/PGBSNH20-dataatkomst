@@ -30,13 +30,17 @@ weeks:
       start-full: 20210301T094500
       end-full: 20210301T110000
       discussion: https://github.com/PGBSNH20/PGBSNH20-dataatkomst/discussions/3
-    - activity: assignment
-      title: "Projekt"
-      titleEn: "Introduction"
-      number: "P0"
-      slug: assignments/project
-      description: "Bilda grupper + bygg en kod grund"
+    - activity: excerise
+      title: "C# refresh - Tech.io"
+      titleEn: "C# refresh - Tech.io"
+      description: "Gå igenom sidan"
       start-full: 20210301T110000
+      end-full: 20210301T120000
+    - activity: assignment
+      title: "The barista"
+      titleEn: "The barista"
+      description: "Skåpa ett API till kaffemaskin"
+      start-full: 20210301T130000
       end-full: 20210301T160000
     - activity: standup
       title: "Samling och slut på dag"
