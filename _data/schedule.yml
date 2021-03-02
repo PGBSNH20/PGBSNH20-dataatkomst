@@ -57,9 +57,9 @@ weeks:
     weekday: "Onsdag"
     activities:
     - activity: standup
-      title: "Uppsamling från förra lektion "
+      title: "Sammanfattning från förra lektion "
       titleEn: "Get together and start of day"
-      description: "Är där frågor sen senaste lektion? Bording."
+      description: "Är där frågor sen förra lektion? Boarding card"
       start-full: 20210303T083000
       end-full: 20210303T090000
     - activity: lecture
@@ -80,8 +80,8 @@ weeks:
       title: "Sammanfattning på dagens lektion"
       titleEn: "Summary of the lecture of the day"
       description: "Är där frågor? Landing."
-      start-full: 20210301T160000
-      end-full: 20210301T163000
+      start-full: 20210303T160000
+      end-full: 20210303T163000
   - day: 2021-03-04
     weekday: "Torsdag"
     activities: null
@@ -96,12 +96,12 @@ weeks:
     weekday: "Måndag"
     activities:
     - activity: lecture
-      title: "Trådning uppstart"
-      titleEn: "Getting started with threading"
+      title: "Trådning med C#"
+      titleEn: "Threading with C#"
       slug: lectures/threading
       description: "Trådar på datorer handlar om att få två sakar att hända samtidigt"
-      start-full: 20210308T083000
-      end-full: 20210308T093000
+      start-full: 20210308T090000
+      end-full: 20210308T094500
       discussion: https://github.com/PGBSNH20/PGBSNH20-dataatkomst/discussions/8
   - day: 2021-03-09
     weekday: "Tisdag"
