@@ -69,16 +69,16 @@ weeks:
       description: "Hur kan vi automatisk verificera vår kod och skriva kod som är enklare att läsa"
       start-full: 20210303T090000
       end-full: 20210303T094500
+      discussion: https://github.com/PGBSNH20/PGBSNH20-dataatkomst/discussions/6
     - activity: assignment
       title: "Projekt: The barista"
       titleEn: "Project: The barista"
       description: "Skåpa ett API till kaffemaskin"
       start-full: 20210303T094500
       end-full: 20210303T160000
-      discussion: https://github.com/PGBSNH20/PGBSNH20-dataatkomst/discussions/6
     - activity: standup
-      title: "Samling och slut på dag"
-      titleEn: "Get together and end of day"
+      title: "Sammanfattning på dagens lektion"
+      titleEn: "Summary of the lecture of the day"
       description: "Är där frågor? Landing."
       start-full: 20210301T160000
       end-full: 20210301T163000

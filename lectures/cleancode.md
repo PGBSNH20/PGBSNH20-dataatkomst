@@ -18,4 +18,4 @@ Denna lektion handlar om hur vi kan producera kod som är lätt att läsa och un
 
 ## Uppgifter
 
-Gör något bra
+Jobba försatt på Barista projektet
