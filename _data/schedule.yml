@@ -90,11 +90,17 @@ weeks:
     activities: null
 - week: 10
   year: 2021
-  description: During this week will we do something fun
+  description: Under denna vecka kommer fokus att vara på hur vi i C# kan jobba asynkront med trådar, tasks, async och await.
   days:
   - day: 2021-03-08
     weekday: "Måndag"
     activities:
+    - activity: standup
+      title: "Återkopling från förra lektion"
+      titleEn: "Get together and start of day"
+      description: "Är där frågor sen förra lektion? Boarding card"
+      start-full: 20210308T083000
+      end-full: 20210308T090000
     - activity: lecture
       title: "Trådning med C#"
       titleEn: "Threading with C#"
@@ -103,6 +109,12 @@ weeks:
       start-full: 20210308T090000
       end-full: 20210308T094500
       discussion: https://github.com/PGBSNH20/PGBSNH20-dataatkomst/discussions/8
+    - activity: standup
+      title: "Prensentaion av projekt"
+      titleEn: "Presentation of projhekt"
+      description: "Hur har ni implementerat projektet, typ 5+ min per grupp"
+      start-full: 20210308T094500
+      end-full: 20210308T103000
   - day: 2021-03-09
     weekday: "Tisdag"
     activities: null
@@ -126,7 +138,7 @@ weeks:
       title: "Databas först / Database first"
       titleEn: "Database first"
       slug: lectures/databasefirst
-      description: "En teknik vart man börja med att skåpa en databas, kanske man har en eksisterende (legacy) databas"
+      description: "En teknik vart man börja med att skåpa en databas, kanske man har en eksisterende (legacy) databas. Samt en introduktion till async och await."
       start-full: 20210312T083000
       end-full: 20210312T093000
       discussion: https://github.com/PGBSNH20/PGBSNH20-dataatkomst/discussions/10
