@@ -115,12 +115,30 @@ weeks:
       description: "Hur har ni implementerat projektet, typ 5+ min per grupp"
       start-full: 20210308T094500
       end-full: 20210308T103000
+    - activity: standup
+      title: "Start på järnväg projekt"
+      titleEn: "Start på railway project"
+      description: "Introduktion till nästa projekt"
+      start-full: 20210308T103000
+      end-full: 20210308T11000
+    - activity: standup
+      title: "Sammanfattning på dagens lektion"
+      titleEn: "Summary of the lecture of the day"
+      description: "Är där frågor? Landing."
+      start-full: 20210308T160000
+      end-full: 20210308T163000
   - day: 2021-03-09
     weekday: "Tisdag"
     activities: null
   - day: 2021-03-10
     weekday: "Onsdag"
     activities:
+    - activity: standup
+      title: "Återkopling från förra lektion"
+      titleEn: "Get together and start of day"
+      description: "Är där frågor sen förra lektion? Boarding card"
+      start-full: 20210310T083000
+      end-full: 20210310T090000
     - activity: lecture
       title: "ORM och tasks"
       titleEn: "ORM and tasks"
@@ -128,12 +146,24 @@ weeks:
       description: "Man använder ett ORM till automatisk att kopla data till objekter, vi titter på hur man kan göra det. Vi försätter med att titta på hur man kan jobba asynkront i C#, i nu med tasks"
       start-full: 20210310T083000
       end-full: 20210310T093000
+    - activity: standup
+      title: "Sammanfattning på dagens lektion"
+      titleEn: "Summary of the lecture of the day"
+      description: "Är där frågor? Landing."
+      start-full: 20210310T160000
+      end-full: 20210310T163000
   - day: 2021-03-11
     weekday: "Torsdag"
     activities: null
   - day: 2021-03-12
     weekday: "Fredag"
     activities:
+    - activity: standup
+      title: "Återkopling från förra lektion"
+      titleEn: "Get together and start of day"
+      description: "Är där frågor sen förra lektion? Boarding card"
+      start-full: 20210312T083000
+      end-full: 20210312T090000
     - activity: lecture
       title: "Databas först / Database first"
       titleEn: "Database first"
@@ -142,6 +172,12 @@ weeks:
       start-full: 20210312T083000
       end-full: 20210312T093000
       discussion: https://github.com/PGBSNH20/PGBSNH20-dataatkomst/discussions/10
+    - activity: standup
+      title: "Sammanfattning på dagens lektion"
+      titleEn: "Summary of the lecture of the day"
+      description: "Är där frågor? Landing."
+      start-full: 20210312T160000
+      end-full: 20210312T163000
 - week: 11
   year: 2021
   description: Denna vecka går vi på gång att jobba med Entity Framework
@@ -149,6 +185,12 @@ weeks:
   - day: 2021-03-15
     weekday: "Måndag"
     activities:
+    - activity: standup
+      title: "Återkopling från förra lektion"
+      titleEn: "Get together and start of day"
+      description: "Är där frågor sen förra lektion? Boarding card"
+      start-full: 20210315T083000
+      end-full: 20210315T090000
     - activity: lecture
       title: "Code first"
       titleEn: "Introduction"
@@ -157,12 +199,24 @@ weeks:
       description: "En teknik vart man skåper en databas utifrån sin kod"
       start-full: 20210315T090000
       end-full: 20210315T160000
+    - activity: standup
+      title: "Sammanfattning på dagens lektion"
+      titleEn: "Summary of the lecture of the day"
+      description: "Är där frågor? Landing."
+      start-full: 20210315T160000
+      end-full: 20210315T163000
   - day: 2021-03-16
     weekday: "Tisdag"
     activities: null
   - day: 2021-03-17
     weekday: "Onsdag"
     activities:
+    - activity: standup
+      title: "Återkopling från förra lektion"
+      titleEn: "Get together and start of day"
+      description: "Är där frågor sen förra lektion? Boarding card"
+      start-full: 20210317T083000
+      end-full: 20210317T090000
     - activity: lecture
       title: "Dataåtkomst med Entity Framework"
       titleEn: "Introduction"
@@ -171,6 +225,12 @@ weeks:
       description: "Dataåtkomst med Entity Framework"
       start-full: 20210317T083000
       end-full: 20210317T090000
+    - activity: standup
+      title: "Sammanfattning på dagens lektion"
+      titleEn: "Summary of the lecture of the day"
+      description: "Är där frågor? Landing."
+      start-full: 20210317T160000
+      end-full: 20210317T163000
   - day: 2021-03-18
     weekday: "Torsdag"
     lecture: null
@@ -184,6 +244,12 @@ weeks:
   - day: 2021-03-22
     weekday: "Måndag"
     activities:
+    - activity: standup
+      title: "Återkopling från förra lektion"
+      titleEn: "Get together and start of day"
+      description: "Är där frågor sen förra lektion? Boarding card"
+      start-full: 20210322T083000
+      end-full: 20210322T090000
     - activity: lecture
       title: "Migrations och deployment"
       titleEn: "Introduction"
@@ -192,12 +258,24 @@ weeks:
       description: "Migrations och deployment"
       start-full: 20210322T083000
       end-full: 20210322T095000
+    - activity: standup
+      title: "Sammanfattning på dagens lektion"
+      titleEn: "Summary of the lecture of the day"
+      description: "Är där frågor? Landing."
+      start-full: 20210322T160000
+      end-full: 20210322T163000
   - day: 2021-03-23
     weekday: "Tisdag"
     activities: null
   - day: 2021-03-24
     weekday: "Onsdag"
     activities: 
+    - activity: standup
+      title: "Återkopling från förra lektion"
+      titleEn: "Get together and start of day"
+      description: "Är där frågor sen förra lektion? Boarding card"
+      start-full: 20210324T083000
+      end-full: 20210324T090000
     - activity: lecture
       title: "DBContext och Transactions"
       titleEn: "Introduction"
@@ -206,6 +284,12 @@ weeks:
       description: "DBContext och Transactions"
       start-full: 20210324T083000
       end-full: 20210324T093000
+    - activity: standup
+      title: "Sammanfattning på dagens lektion"
+      titleEn: "Summary of the lecture of the day"
+      description: "Är där frågor? Landing."
+      start-full: 20210324T160000
+      end-full: 20210324T163000
   - day: 2021-03-25
     weekday: "Torsdag"
     lecture: null
@@ -219,6 +303,12 @@ weeks:
   - day: 2021-03-29
     weekday: "Måndag"
     activities:
+    - activity: standup
+      title: "Återkopling från förra lektion"
+      titleEn: "Get together and start of day"
+      description: "Är där frågor sen förra lektion? Boarding card"
+      start-full: 20210329T083000
+      end-full: 20210329T090000
     - activity: lecture
       title: "Enhetstest med data"
       titleEn: "Introduction"
@@ -227,12 +317,24 @@ weeks:
       description: "Enhetstest med data"
       start-full: 20210329T090000
       end-full: 20210329T160000
+    - activity: standup
+      title: "Sammanfattning på dagens lektion"
+      titleEn: "Summary of the lecture of the day"
+      description: "Är där frågor? Landing."
+      start-full: 20210329T160000
+      end-full: 20210329T163000
   - day: 2021-03-30
     weekday: "Tisdag"
     activities: null
   - day: 2021-03-31
     weekday: "Onsdag"
     activities:
+    - activity: standup
+      title: "Återkopling från förra lektion"
+      titleEn: "Get together and start of day"
+      description: "Är där frågor sen förra lektion? Boarding card"
+      start-full: 20210331T083000
+      end-full: 20210331T090000
     - activity: lecture
       title: "Datåtkomst och dokument databaser"
       titleEn: "Introduction"
@@ -241,6 +343,12 @@ weeks:
       description: "Datåtkomst och dokument databaser"
       start-full: 20210331T090000
       end-full: 20210331T160000
+    - activity: standup
+      title: "Sammanfattning på dagens lektion"
+      titleEn: "Summary of the lecture of the day"
+      description: "Är där frågor? Landing."
+      start-full: 20210331T160000
+      end-full: 20210331T163000
   - day: 2021-04-01
     weekday: "Torsdag"
     activities: null
@@ -261,6 +369,12 @@ weeks:
   - day: 2021-04-07
     weekday: "Onsdag"
     activities:
+    - activity: standup
+      title: "Återkopling från förra lektion"
+      titleEn: "Get together and start of day"
+      description: "Är där frågor sen förra lektion? Boarding card"
+      start-full: 20210407T083000
+      end-full: 20210407T090000
     - activity: lecture
       title: "Prestanda och optimering"
       titleEn: "Introduction"
@@ -269,6 +383,12 @@ weeks:
       description: "Prestanda och optimering"
       start-full: 20210407T090000
       end-full: 20210407T160000
+    - activity: standup
+      title: "Sammanfattning på dagens lektion"
+      titleEn: "Summary of the lecture of the day"
+      description: "Är där frågor? Landing."
+      start-full: 20210407T160000
+      end-full: 20210407T163000
   - day: 2021-04-08
     weekday: "Torsdag"
     activities: null
@@ -282,6 +402,12 @@ weeks:
   - day: 2021-04-12
     weekday: "Måndag"
     activities:
+    - activity: standup
+      title: "Återkopling från förra lektion"
+      titleEn: "Get together and start of day"
+      description: "Är där frågor sen förra lektion? Boarding card"
+      start-full: 20210412T083000
+      end-full: 20210412T090000
     - activity: lecture
       title: "Datatjänster"
       titleEn: "Introduction"
@@ -290,12 +416,24 @@ weeks:
       description: "Graphql"
       start-full: 20210412T090000
       end-full: 20210412T160000
+    - activity: standup
+      title: "Sammanfattning på dagens lektion"
+      titleEn: "Summary of the lecture of the day"
+      description: "Är där frågor? Landing."
+      start-full: 20210412T160000
+      end-full: 20210412T163000
   - day: 2021-04-13
     weekday: "Tisdag"
     activities: null
   - day: 2021-04-14
     weekday: "Onsdag"
     activities:  
+    - activity: standup
+      title: "Återkopling från förra lektion"
+      titleEn: "Get together and start of day"
+      description: "Är där frågor sen förra lektion? Boarding card"
+      start-full: 20210414T083000
+      end-full: 20210414T090000
     - activity: lecture
       title: "Ask Almost Anything"
       titleEn: "Introduction"
