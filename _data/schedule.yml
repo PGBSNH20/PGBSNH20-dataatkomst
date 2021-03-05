@@ -302,8 +302,8 @@ weeks:
       number: "A1"
       slug: aaa/1
       description: "TBA"
-      start-full: 20210120T083000
-      end-full: 20210120T093000
+      start-full: 20210414T083000
+      end-full: 20210414T093000
   - day: 2021-04-15
     weekday: "Torsdag"
     activities: null
