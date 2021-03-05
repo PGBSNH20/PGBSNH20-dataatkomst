@@ -144,7 +144,7 @@ weeks:
       discussion: https://github.com/PGBSNH20/PGBSNH20-dataatkomst/discussions/10
 - week: 11
   year: 2021
-  description: During this week will we do something fun
+  description: Denna vecka går vi på gång att jobba med Entity Framework
   days:
   - day: 2021-03-15
     weekday: "Måndag"
@@ -179,7 +179,7 @@ weeks:
     lecture: null
 - week: 12
   year: 2021
-  description: During this week will we do something fun
+  description: Vi förstätter att jobba med Entity Framework
   days:
   - day: 2021-03-22
     weekday: "Måndag"
@@ -214,7 +214,7 @@ weeks:
     lecture: null
 - week: 13
   year: 2021
-  description: During this week will we do something fun
+  description: Vi går mer på djubet med enhetstest och börjar att jobba med dokument databaser
   days:
   - day: 2021-03-29
     weekday: "Måndag"
@@ -250,7 +250,7 @@ weeks:
     activities: null
 - week: 14
   year: 2021
-  description: During this week will we do something fun
+  description: Påsk vecka, vi titer på hur man kan optimera sin entity framework
   days:
   - day: 2021-04-05
     weekday: "Måndag"
@@ -277,7 +277,7 @@ weeks:
     activities: null
 - week: 15
   year: 2021
-  description: During this week will we wrap up everything
+  description: Förutom en röd tråd till webbackend, kommer vi denna vecka primär att avrunda denna kurs
   days:
   - day: 2021-04-12
     weekday: "Måndag"
