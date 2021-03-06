@@ -11,7 +11,7 @@ notInTopic:
   literature:
   - title: "Main Thread in C#"
     url: https://www.geeksforgeeks.org/main-thread-in-c-sharp/
-    type: Article
+    timeType: Article
     timeMinutes: 2
     timeBadge: info
   - title: "C# Thread Basics"
