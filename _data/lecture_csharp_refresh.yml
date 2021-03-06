@@ -18,6 +18,8 @@ topics:
       url: https://brilliant.org/wiki/object-oriented-programming/
     - title: "Welcome - C# Refresh"
       url: https://tech.io/playgrounds/52999/c-refresh/welcome
+      description: >
+        Explore this playground and try new concepts right into your browser
     - title: "Cohesion and Coupling: Two OO Design Principles – Experiences Unlimited"
       url: https://sanaulla.info/2008/06/26/cohesion-and-coupling-two-oo-design-principles/
     optionalLiterature:
@@ -29,6 +31,8 @@ topics:
       url: https://www.geeksforgeeks.org/c-sharp-abstraction/
     - title: "A Laboratory For Teaching Object-Oriented Thinking"
       url: http://c2.com/doc/oopsla89/paper.html
+      description: >
+        Kent Beck and Ward Cunningham
     - title: "How To Do Object Oriented Programming The Right Way - by Xiaoyun Yang - codeburst"
       url: https://codeburst.io/how-to-do-object-oriented-programming-the-right-way-1339c1a25286
     - title: "Coupling And Cohesion"
@@ -76,8 +80,12 @@ topics:
       url: https://www.red-gate.com/simple-talk/dotnet/net-framework/fluent-code-in-c/
     - title: "Fluent API Development in C#"
       url: https://www.linkedin.com/learning/fluent-api-development-in-c-sharp/welcome
+      description: >
+        Fluent APIs use method chaining for maximum readability and flow. They may be slightly more complicated to write, but are much easier to understand and solve specific complex programming challenges that general-purpose languages can't. This training course teaches the what, why, and how of fluent API development using C#. Learn the history of fluent APIs, beginning with the coining of the phrase "fluent" by Martin Fowler. Next, learn how to decide if fluent APIs are right for your project, and how to go about designing them. Instructor Robby Millsap also reviews some popular fluent libraries such as LINQ and Azure Management. Lastly, he takes a simple console application and shows how to refactor it to use fluent prose.
     - title: "FluentInterface"
       url: https://martinfowler.com/bliki/FluentInterface.html
+      description: >
+        Martin Fowler
   - topic: "Diagrams"
     literature:
     - title: "What is Use Case Diagram?"

@@ -49,6 +49,8 @@ topics:
       url: http://blog.geoffpetrie.com/blog/2014/08/15/analysis-of-ottingers-rules-for-variable-and-class-naming/
     - title: "Class and method naming good advice"
       url: https://drupal.star.bnl.gov/STAR/book/export/html/5692
+      description: >
+        Ottinger's Rules for Variable and Class Naming
     - title: "Naming Guidelines"
       url: https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/naming-guidelines
   - topic: "Best practice för kod"

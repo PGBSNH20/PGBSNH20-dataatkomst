@@ -27,6 +27,8 @@ topics:
       url: https://docs.microsoft.com/en-us/aspnet/core/performance/performance-best-practices?view=aspnetcore-3.1
     - title: "Chaining tasks using continuation tasks"
       url: https://docs.microsoft.com/en-us/dotnet/standard/parallel-programming/chaining-tasks-by-using-continuation-tasks
+      description: >
+        Learn to chain task by using continuation tasks in .NET. A continuation task is an asynchronous task that's invoked by another task.
   - topic: "Object-relational mapping"
     literature:
     - title: "Introduction to Object-Relational Mapping"
