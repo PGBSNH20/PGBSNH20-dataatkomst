@@ -120,7 +120,7 @@ weeks:
       titleEn: "Start på railway project"
       description: "Introduktion till nästa projekt"
       start-full: 20210308T103000
-      end-full: 20210308T11000
+      end-full: 20210308T110000
     - activity: standup
       title: "Sammanfattning på dagens lektion"
       titleEn: "Summary of the lecture of the day"
