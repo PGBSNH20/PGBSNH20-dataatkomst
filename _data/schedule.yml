@@ -109,7 +109,7 @@ weeks:
       end-full: 20210308T094500
       number: "3"
       discussion: https://github.com/PGBSNH20/PGBSNH20-dataatkomst/discussions/8
-    - activity: standup
+    - activity: assignment
       title: "Presentation av Barista projekt"
       titleEn: "Presentation of project"
       description: "Hur har ni implementerat projektet, typ 5+ min per grupp"
