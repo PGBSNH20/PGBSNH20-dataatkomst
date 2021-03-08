@@ -96,7 +96,7 @@ weeks:
     weekday: "Måndag"
     activities:
     - activity: standup
-      title: "Återkopling från förra lektion"
+      title: "Återkopling från Clean Code"
       titleEn: "Get together and start of day"
       description: "Är där frågor sen förra lektion? Boarding card"
       start-full: 20210308T083000
@@ -110,7 +110,7 @@ weeks:
       end-full: 20210308T094500
       discussion: https://github.com/PGBSNH20/PGBSNH20-dataatkomst/discussions/8
     - activity: standup
-      title: "Prensentaion av projekt"
+      title: "Presentation av Barista projekt"
       titleEn: "Presentation of project"
       description: "Hur har ni implementerat projektet, typ 5+ min per grupp"
       start-full: 20210308T094500
@@ -121,6 +121,12 @@ weeks:
       description: "Introduktion till nästa projekt"
       start-full: 20210308T103000
       end-full: 20210308T110000
+    - activity: standup
+      title: "Samling och frågestund"
+      titleEn: "Meet in teams and possibility to get answer to questions"
+      description: "Är där frågor till projektet"
+      start-full: 20210308T133000
+      end-full: 20210308T140000      
     - activity: standup
       title: "Sammanfattning på dagens lektion"
       titleEn: "Summary of the lecture of the day"
@@ -134,7 +140,7 @@ weeks:
     weekday: "Onsdag"
     activities:
     - activity: standup
-      title: "Återkopling från förra lektion"
+      title: "Återkopling från Trådning med C#"
       titleEn: "Get together and start of day"
       description: "Är där frågor sen förra lektion? Boarding card"
       start-full: 20210310T083000
@@ -146,6 +152,12 @@ weeks:
       description: "Man använder ett ORM till automatisk att kopla data till objekter, vi titter på hur man kan göra det. Vi försätter med att titta på hur man kan jobba asynkront i C#, i nu med tasks"
       start-full: 20210310T083000
       end-full: 20210310T093000
+    - activity: standup
+      title: "Samling och frågestund"
+      titleEn: "Meet in teams and possibility to get answer to questions"
+      description: "Vi tar på denna samling upp generella frågor till projektet, som har uppstått under förmiddagen."
+      start-full: 20210310T133000
+      end-full: 20210310T140000 
     - activity: standup
       title: "Sammanfattning på dagens lektion"
       titleEn: "Summary of the lecture of the day"
@@ -159,7 +171,7 @@ weeks:
     weekday: "Fredag"
     activities:
     - activity: standup
-      title: "Återkopling från förra lektion"
+      title: "Återkopling från ORM och tasks"
       titleEn: "Get together and start of day"
       description: "Är där frågor sen förra lektion? Boarding card"
       start-full: 20210312T083000
@@ -172,6 +184,12 @@ weeks:
       start-full: 20210312T083000
       end-full: 20210312T093000
       discussion: https://github.com/PGBSNH20/PGBSNH20-dataatkomst/discussions/10
+    - activity: standup
+      title: "Samling och frågestund"
+      titleEn: "Meet in teams and possibility to get answer to questions"
+      description: "Vi tar på denna samling upp generella frågor till projektet, som har uppstått under förmiddagen."
+      start-full: 20210312T133000
+      end-full: 20210312T140000 
     - activity: standup
       title: "Sammanfattning på dagens lektion"
       titleEn: "Summary of the lecture of the day"
