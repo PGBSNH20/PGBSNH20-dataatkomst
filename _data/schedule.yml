@@ -12,7 +12,6 @@ weeks:
     - activity: lecture
       title: "Introduktion"
       titleEn: "Introduction"
-      number: "L1"
       slug: lectures/introduction
       filename: Untitled
       dirname: untitled-lecture
@@ -22,7 +21,7 @@ weeks:
     - activity: lecture
       title: "C# refresh"
       titleEn: "C# refresh"
-      number: "L1"
+      number: "1"
       slug: lectures/introduction
       filename: Untitled
       dirname: untitled-lecture
@@ -45,7 +44,6 @@ weeks:
     - activity: standup
       title: "Samling och slut på dag"
       titleEn: "Get together and end of day"
-      number: "L1"
       slug: lectures/introduction
       description: "Är där frågor? Landing."
       start-full: 20210301T160000
@@ -69,6 +67,7 @@ weeks:
       description: "Hur kan vi automatisk verificera vår kod och skriva kod som är enklare att läsa"
       start-full: 20210303T090000
       end-full: 20210303T094500
+      number: "2"
       discussion: https://github.com/PGBSNH20/PGBSNH20-dataatkomst/discussions/6
     - activity: assignment
       title: "Projekt: The barista"
@@ -108,6 +107,7 @@ weeks:
       description: "Trådar på datorer handlar om att få två sakar att hända samtidigt"
       start-full: 20210308T090000
       end-full: 20210308T094500
+      number: "3"
       discussion: https://github.com/PGBSNH20/PGBSNH20-dataatkomst/discussions/8
     - activity: standup
       title: "Presentation av Barista projekt"
@@ -115,13 +115,13 @@ weeks:
       description: "Hur har ni implementerat projektet, typ 5+ min per grupp"
       start-full: 20210308T094500
       end-full: 20210308T103000
-    - activity: standup
+    - activity: assignment
       title: "Start på järnväg projekt"
       titleEn: "Start på railway project"
       description: "Introduktion till nästa projekt"
       start-full: 20210308T103000
       end-full: 20210308T110000
-    - activity: standup
+    - activity: assignment
       title: "Samling och frågestund"
       titleEn: "Meet in teams and possibility to get answer to questions"
       description: "Är där frågor till projektet"
@@ -148,11 +148,12 @@ weeks:
     - activity: lecture
       title: "ORM och tasks"
       titleEn: "ORM and tasks"
+      number: "4"
       slug: lectures/ormtask
       description: "Man använder ett ORM till automatisk att kopla data till objekter, vi titter på hur man kan göra det. Vi försätter med att titta på hur man kan jobba asynkront i C#, i nu med tasks"
       start-full: 20210310T083000
       end-full: 20210310T093000
-    - activity: standup
+    - activity: assignment
       title: "Samling och frågestund"
       titleEn: "Meet in teams and possibility to get answer to questions"
       description: "Vi tar på denna samling upp generella frågor till projektet, som har uppstått under förmiddagen."
@@ -183,8 +184,9 @@ weeks:
       description: "En teknik vart man börja med att skåpa en databas, kanske man har en eksisterende (legacy) databas. Samt en introduktion till async och await."
       start-full: 20210312T083000
       end-full: 20210312T093000
+      number: "5"
       discussion: https://github.com/PGBSNH20/PGBSNH20-dataatkomst/discussions/10
-    - activity: standup
+    - activity: assignment
       title: "Samling och frågestund"
       titleEn: "Meet in teams and possibility to get answer to questions"
       description: "Vi tar på denna samling upp generella frågor till projektet, som har uppstått under förmiddagen."
