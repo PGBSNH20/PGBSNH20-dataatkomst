@@ -214,7 +214,7 @@ weeks:
     - activity: lecture
       title: "Code first"
       titleEn: "Introduction"
-      number: "L6"
+      number: "6"
       slug: lectures/codefirst
       description: "En teknik vart man skåper en databas utifrån sin kod"
       start-full: 20210315T090000
@@ -240,7 +240,7 @@ weeks:
     - activity: lecture
       title: "Dataåtkomst med Entity Framework"
       titleEn: "Introduction"
-      number: "L7"
+      number: "7"
       slug: lectures/dataaccess
       description: "Dataåtkomst med Entity Framework"
       start-full: 20210317T083000
@@ -273,7 +273,7 @@ weeks:
     - activity: lecture
       title: "Migrations och deployment"
       titleEn: "Introduction"
-      number: "L8"
+      number: "8"
       slug: lectures/migration
       description: "Migrations och deployment"
       start-full: 20210322T083000
@@ -299,7 +299,7 @@ weeks:
     - activity: lecture
       title: "DBContext och Transactions"
       titleEn: "Introduction"
-      number: "L9"
+      number: "9"
       slug: lectures/dbcontext
       description: "DBContext och Transactions"
       start-full: 20210324T083000
@@ -332,7 +332,7 @@ weeks:
     - activity: lecture
       title: "Enhetstest med data"
       titleEn: "Introduction"
-      number: "L10"
+      number: "10"
       slug: lectures/unittestdata
       description: "Enhetstest med data"
       start-full: 20210329T090000
@@ -358,7 +358,7 @@ weeks:
     - activity: lecture
       title: "Datåtkomst och dokument databaser"
       titleEn: "Introduction"
-      number: "L11"
+      number: "11"
       slug: lectures/documentdb
       description: "Datåtkomst och dokument databaser"
       start-full: 20210331T090000

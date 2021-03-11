@@ -1,6 +1,6 @@
 ---
 layout: lecture
 title: Migrations och deployment
-lectureDate: Onsdag den 24:e Mars 2021
+lectureDate: Måndag den 22:a Mars 2021
 permalink: /lectures/migration
 ---
