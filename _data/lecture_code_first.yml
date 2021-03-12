@@ -13,6 +13,8 @@ notInTopic:
     url: https://entityframeworkcore.com/model-explicit-values
   - title: "Data Annotations"
     url: https://entityframeworkcore.com/model-data-annotations
+  - title: "Code First"
+    url: https://entityframeworkcore.com/approach-code-first
   optionalLiterature:
   - title: "What is a DbContext"
     url: https://entityframework.net/what-is-dbcontext
@@ -24,6 +26,4 @@ notInTopic:
     url: https://entityframeworkcore.com/model-inheritance
   - title: "Normalization in DBMS: 1NF, 2NF, 3NF and BCNF with Examples"
     url: https://hackr.io/blog/dbms-normalization
-  - title: "Code First"
-    url: https://entityframeworkcore.com/approach-code-first
 topics:
