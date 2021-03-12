@@ -13,6 +13,7 @@ Denna lektion tittar vi på hur man kan skåpa en databas från kod
 
 ## Lektionslitteratur
 
+{% include lecturenontopics.html lectureData="lecture_code_first" %}
 {% include lecturetopics.html lectureData="lecture_code_first" %}
 
 ## Uppgift

@@ -13,6 +13,7 @@ Denna lektion tittar vi på hur man med Entity Framework kan komma åt data i da
 
 ## Lektionslitteratur
 
+{% include lecturenontopics.html lectureData="lecture_dataaatkomst_med_entity_framework" %}
 {% include lecturetopics.html lectureData="lecture_dataaatkomst_med_entity_framework" %}
 
 ## Uppgift
