@@ -26,6 +26,10 @@ topics:
       timeMinutes: 11
       timeBadge: info
     optionalLiterature:
+    - title: "Unit testing multi-threaded code"
+      url: https://svengrand.blogspot.com/2014/01/unit-testing-multi-threaded-code.html
+    - title: "C# Async / Await - Make your app more responsive and faster with asynchronous programming"
+      url: https://www.youtube.com/watch?v=2moh18sh5p4
     - title: "C# Async/Await/Task Explained (Deep Dive) - YouTube"
       url: https://www.youtube.com/watch?v=il9gl8MH17s
       timeType: Video
