@@ -398,7 +398,7 @@ weeks:
     - activity: lecture
       title: "Prestanda och optimering"
       titleEn: "Introduction"
-      number: "L12"
+      number: "12"
       slug: lectures/performance
       description: "Prestanda och optimering"
       start-full: 20210407T090000
@@ -431,7 +431,7 @@ weeks:
     - activity: lecture
       title: "Datatjänster"
       titleEn: "Introduction"
-      number: "L13"
+      number: "13"
       slug: lectures/dataservices
       description: "Graphql"
       start-full: 20210412T090000
