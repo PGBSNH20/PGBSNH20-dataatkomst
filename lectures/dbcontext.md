@@ -9,7 +9,7 @@ Denna lektion tittar vi på hur man kan
 
 ## Lektionsplan
 
-{% include lectureplan.html lectureWeek=2 lectureDay=2 lectureCaption="Lektion från kl. 8:30 till kl. 16:30" %}
+{% include lectureplan.html lectureWeek=3 lectureDay=2 lectureCaption="Lektion från kl. 8:30 till kl. 16:30" %}
 
 ## Lektionslitteratur
 
