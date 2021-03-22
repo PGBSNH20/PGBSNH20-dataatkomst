@@ -18,4 +18,4 @@ Denna lektion tittar vi på hur man med Entity Framework kan komma åt data i da
 
 ## Uppgift
 
-Tågbana projekt försatt
+Start på SpacePark

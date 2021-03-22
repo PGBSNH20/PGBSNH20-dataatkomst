@@ -16,3 +16,5 @@ Denna lektion tittar vi på hur man jobbar med migrations
 {% include lecturetopics.html lectureData="lecture_migrations_och_deployment" %}
 
 ## Uppgift
+
+SpacePark försatt
