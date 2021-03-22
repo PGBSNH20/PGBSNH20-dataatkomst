@@ -12,7 +12,7 @@ Denna lektion tittar vi på hur man kan
 
 ## Lektionslitteratur
 
-{% include lecturenontopics.html lectureData="lecture_datatjaenster" %}
-{% include lecturetopics.html lectureData="lecture_datatjaenster" %}
+{% include lecturenontopics.html lectureData="lecture_dataatkomst_och_dokument_databaser" %}
+{% include lecturetopics.html lectureData="lecture_dataatkomst_och_dokument_databaser" %}
 
 ## Uppgift
