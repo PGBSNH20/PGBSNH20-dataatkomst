@@ -45,3 +45,5 @@ Uppgiften kommer att vara en reflektion över kursen med en rad frågor som öns
 Ni får tillgång till tentan på torsdagen (2021-04-15, runt kl 15), den förväntade arbetsinsats är 4 timmar (man får såklart lägga båda mer och mindre).
 
 Deadline: 2021-04-16 kl 13:00
+
+Betygsgrundande: 20 poäng
