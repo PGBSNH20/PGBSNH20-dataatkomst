@@ -18,4 +18,4 @@ Alla svar måste vara dina egna och ingen hjälp från andra är tillåten (inkl
 
 Alla hjälpmedel kommer att vara tillåten. Det är rekommenderat att ha skriv-papper klart i fall man behöver att göra ritningar som en del av inlämningen (det är oftast snabbare att göra det per hand än på datorn).
 
-Texten ska skrivas som markdown, med användning av bilder, figurer och länkar. Förutom inlämning av markdown filen kan även en PDF version inlämnas (för att säkerställa att där inte blir knas med bilder etc.). Inlämning kommer att ske via GitHub (i ett eget privat repo), se till att göra commits + push ofta.
+Texten ska skrivas som markdown, med användning av bilder, figurer och länkar. Förutom inlämning av markdown filen kan även en PDF version inlämnas (för att säkerställa att där inte blir knas med bilder etc.). Inlämning ska ske via GitHub (i ett eget privat repo som du får via GitHub classroom), se till att göra commits + push ofta, så att du är säker på att inte tappa data.
