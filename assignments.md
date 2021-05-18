@@ -13,28 +13,28 @@ Vi kommer under denna kurs att ha en rad med olika projekt:
 * Uppgift: Bygg ett Fluent API till en Espresso maskin
 * Deadline: 2021-03-08 (5 dagar)
 * Inlämning: Kod
-* Ej betygsgrundande
+* Ej oblikatorisk
 
 ## The Railway
 * Mål: Att träna på trådar och tasks
 * Uppgift: Bygga ett program som simulera en liten järnväg
 * Deadline: 2021-03-17 (6 dagar)
 * Inlämning: Kod
-* Betygsgrundande: 10 poäng
+* Oblikatorisk: IG/G
 
 ## The Spaceport
 * Mål: Att bygga en applikation som spara och hämta data från en databas med Entity Framework
 * Uppgift: Bygg ett parkeringssystem till en spaceport (parkering i rymden)
 * Deadline: 2021-03-29 (8 dagar)
 * Inlämning: Kod
-* Betygsgrundande: 10 poäng
+* Oblikatorisk: IG/G
 
 ## The ludo game
 * Mål: Att använda alt vi har lärt oss under kursen
 * Uppgift: Implementera ett FIA spel
 * Deadline: 2021-04-13 (9 dagar)
 * Inlämning: Kod + Dokumentation + Video
-* Betygsgrundande: 10 poäng
+* Oblikatorisk: IG/G
 
 # Tenta
 
@@ -46,4 +46,4 @@ Ni får tillgång till tentan på torsdagen (2021-04-15, runt kl 15), den förv�
 
 Deadline: 2021-04-16 kl 13:00
 
-Betygsgrundande: 20 poäng
+Betygsgrundande: IG / G / VG
